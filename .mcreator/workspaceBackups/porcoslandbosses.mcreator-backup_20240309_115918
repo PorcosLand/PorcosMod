@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Radagon",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/porcoslandbosses/client/renderer/RadagonRenderer.java",
+          "src/main/java/net/mcreator/porcoslandbosses/entity/RadagonEntity.java",
+          "src/main/resources/assets/porcoslandbosses/models/item/radagon_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.porcoslandbosses.radagon_spawn_egg": "Radagon Spawn Egg",
+      "entity.porcoslandbosses.radagon": "Radagon"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "porcoslandbosses",
+    "modName": "PorcoslandBosses",
+    "version": "1.0.0",
+    "author": "inigo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.porcoslandbosses",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
