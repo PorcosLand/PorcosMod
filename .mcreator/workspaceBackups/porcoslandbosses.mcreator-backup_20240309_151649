@@ -38,11 +38,11 @@
       "registry_name": "porcarmor_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_boots.json",
           "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_chestplate.json",
-          "src/main/java/net/mcreator/porcoslandbosses/item/PorcarmorArmorItem.java",
-          "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_helmet.json",
           "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_leggings.json",
-          "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_boots.json"
+          "src/main/java/net/mcreator/porcoslandbosses/item/PorcarmorArmorItem.java",
+          "src/main/resources/assets/porcoslandbosses/models/item/porcarmor_armor_helmet.json"
         ]
       }
     },

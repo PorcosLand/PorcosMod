@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "porcarmor_head",
+    "textureHelmet": "casco_rosa",
     "enableBody": true,
-    "textureBody": "porcarmor_body",
+    "textureBody": "pechera_rosa",
     "enableLeggings": true,
-    "textureLeggings": "porcarmor_leggings",
+    "textureLeggings": "pantalones_rosas",
     "enableBoots": true,
-    "textureBoots": "porcarmor_boots",
+    "textureBoots": "botas_rosas",
     "creativeTab": {
       "value": "COMBAT"
     },

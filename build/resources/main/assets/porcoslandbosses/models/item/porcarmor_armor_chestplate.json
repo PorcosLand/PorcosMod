@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "porcoslandbosses:item/porcarmor_body"
+    "layer0": "porcoslandbosses:item/pechera_rosa"
   }
 }
