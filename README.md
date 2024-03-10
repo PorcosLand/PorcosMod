@@ -3,7 +3,7 @@
 
 
 
-![Logo](https://i.imgur.com/mgv1uAo.png)
+![Logo](https://i.imgur.com/rnfZUmg.png)
 
 
 ## Características
