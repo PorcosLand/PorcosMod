@@ -1,5 +1,6 @@
 package net.porcosland.porcosmod.procedures;
 
+import net.porcosland.porcosmod.network.PorcosmodModVariables;
 import net.porcosland.porcosmod.init.PorcosmodModEntities;
 import net.porcosland.porcosmod.PorcosmodMod;
 
@@ -32,7 +33,8 @@ public class RadagonAlMorirProcedure {
 		boolean bossSpawn = false;
 		PorcosmodMod.queueServerWork(1, () -> {
 			if (world instanceof ServerLevel _level) {
-				Entity entityToSpawn = PorcosmodModEntities.RADAGON.get().spawn(_level, new BlockPos(-29, 86, -1188), MobSpawnType.MOB_SUMMONED);
+				Entity entityToSpawn = PorcosmodModEntities.RADAGON.get().spawn(_level,
+						BlockPos.containing(PorcosmodModVariables.MapVariables.get(world).setXRadagon, PorcosmodModVariables.MapVariables.get(world).setYRadagon, PorcosmodModVariables.MapVariables.get(world).setZRadagon), MobSpawnType.MOB_SUMMONED);
 				if (entityToSpawn != null) {
 					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
 				}

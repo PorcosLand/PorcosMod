@@ -151,23 +151,46 @@
           }
         ]
       }
+    },
+    {
+      "name": "RadagonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "setX",
+      "name": "setXRadagon",
       "type": "number",
       "scope": "map",
       "value": "0"
     },
     {
-      "name": "setY",
+      "name": "setYRadagon",
       "type": "number",
       "scope": "map",
       "value": "0"
     },
     {
-      "name": "setZ",
+      "name": "setZRadagon",
       "type": "number",
       "scope": "map",
       "value": "0"

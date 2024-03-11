@@ -13,6 +13,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -132,20 +144,59 @@
           "src/main/java/net/porcosland/porcosmod/entity/TitiEntity.java"
         ]
       }
+    },
+    {
+      "name": "RadagonItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadagonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "Boss",
-      "type": "logic",
+      "name": "setXRadagon",
+      "type": "number",
       "scope": "map",
-      "value": "true"
+      "value": "0"
     },
     {
-      "name": "Bucle",
-      "type": "logic",
+      "name": "setYRadagon",
+      "type": "number",
       "scope": "map",
-      "value": "true"
+      "value": "0"
+    },
+    {
+      "name": "setZRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [

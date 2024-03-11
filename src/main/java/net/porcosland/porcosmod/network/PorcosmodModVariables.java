@@ -87,9 +87,9 @@ public class PorcosmodModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "porcosmod_mapvars";
-		public double setX = 0;
-		public double setY = 0;
-		public double setZ = 0;
+		public double setXRadagon = 0;
+		public double setYRadagon = 0;
+		public double setZRadagon = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -98,16 +98,16 @@ public class PorcosmodModVariables {
 		}
 
 		public void read(CompoundTag nbt) {
-			setX = nbt.getDouble("setX");
-			setY = nbt.getDouble("setY");
-			setZ = nbt.getDouble("setZ");
+			setXRadagon = nbt.getDouble("setXRadagon");
+			setYRadagon = nbt.getDouble("setYRadagon");
+			setZRadagon = nbt.getDouble("setZRadagon");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
-			nbt.putDouble("setX", setX);
-			nbt.putDouble("setY", setY);
-			nbt.putDouble("setZ", setZ);
+			nbt.putDouble("setXRadagon", setXRadagon);
+			nbt.putDouble("setYRadagon", setYRadagon);
+			nbt.putDouble("setZRadagon", setZRadagon);
 			return nbt;
 		}
 
