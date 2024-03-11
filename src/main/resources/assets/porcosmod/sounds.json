@@ -1,0 +1,42 @@
+{
+  "titi.du": {
+    "sounds": [
+      {
+        "name": "porcosmod:titidu",
+        "stream": false
+      }
+    ]
+  },
+  "titi.live": {
+    "sounds": [
+      {
+        "name": "porcosmod:doit",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:titidu",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:titiname",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:uglygly",
+        "stream": false
+      }
+    ]
+  },
+  "titi.hit": {
+    "sounds": [
+      {
+        "name": "porcosmod:titihit",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:titihit2",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -42,7 +42,7 @@ public class ModelTiti<T extends Entity> extends EntityModel<T> {
 				CubeListBuilder.create().texOffs(0, 17).addBox(-4.0F, -9.0F, -4.0F, 10.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(28, 17).addBox(-4.0F, -8.0F, -5.0F, 10.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 17)
 						.addBox(0.0F, -6.1F, -4.4F, 2.0F, 4.0F, 1.0F, new CubeDeformation(0.2F)).texOffs(0, 4).addBox(-3.0F, -5.3F, -4.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.5F)).texOffs(0, 0)
 						.addBox(3.0F, -5.3F, -4.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.5F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
+				PartPose.offsetAndRotation(0.0F, 24.0F, 0.0F, -0.1309F, 0.0F, 0.0F));
 		PartDefinition LeftLeg = partdefinition.addOrReplaceChild("LeftLeg", CubeListBuilder.create().texOffs(24, 39).addBox(6.0F, -1.0F, -4.0F, 2.0F, 1.0F, 6.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));
 		PartDefinition cuadradoPierna_r1 = LeftLeg.addOrReplaceChild("cuadradoPierna_r1", CubeListBuilder.create().texOffs(0, 33).addBox(6.0F, -6.0F, -4.0F, 2.0F, 5.0F, 5.0F, new CubeDeformation(0.0F)),
 				PartPose.offsetAndRotation(0.0F, 0.0F, 0.0F, -0.7854F, 0.0F, 0.0F));

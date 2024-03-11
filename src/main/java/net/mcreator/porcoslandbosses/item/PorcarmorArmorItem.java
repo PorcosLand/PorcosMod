@@ -78,7 +78,7 @@ public abstract class PorcarmorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "porcoslandbosses:textures/entities/pinkarmor1.png";
+			return "porcoslandbosses:textures/entities/diamond_layer_1.png";
 		}
 
 		@Override
@@ -99,7 +99,7 @@ public abstract class PorcarmorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "porcoslandbosses:textures/entities/pinkarmor1.png";
+			return "porcoslandbosses:textures/entities/diamond_layer_1.png";
 		}
 
 		@Override
@@ -120,7 +120,7 @@ public abstract class PorcarmorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "porcoslandbosses:textures/entities/diamond_layer_2.png";
+			return "porcoslandbosses:textures/entities/pink2.png";
 		}
 
 		@Override
@@ -141,7 +141,7 @@ public abstract class PorcarmorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "porcoslandbosses:textures/entities/pinkarmor1.png";
+			return "porcoslandbosses:textures/entities/diamond_layer_1.png";
 		}
 
 		@Override
