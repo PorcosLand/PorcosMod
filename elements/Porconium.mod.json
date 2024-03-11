@@ -8,9 +8,9 @@
     "customProperties": {},
     "states": [],
     "name": "Porconium",
-    "rarity": "EPIC",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -21,7 +21,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

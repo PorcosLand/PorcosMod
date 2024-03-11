@@ -5,10 +5,10 @@ license="Academic Free License v3.0"
 [[mods]]
 modId="porcosmod"
 version="1.0.0"
-displayName="porcosmod"
+displayName="PorcosMod"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="inigo, MCreator"
+authors="Yaler, MCreator"
 
 [[dependencies.porcosmod]]
     modId="minecraft"

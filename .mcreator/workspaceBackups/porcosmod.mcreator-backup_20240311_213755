@@ -1,0 +1,151 @@
+{
+  "mod_elements": [
+    {
+      "name": "RadagonAlMorir",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_al_morir",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonAlMorirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radagon",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/radagon_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/entity/RadagonEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/RadagonRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Porconium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcarmorArmorItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_helmet.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_chestplate.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_leggings.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.porcosmod.porcarmor_armor_helmet": "Porcarmor Helmet",
+      "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
+      "item.porcosmod.porconium": "Porconium",
+      "item.porcosmod.porcarmor_armor_leggings": "Porcarmor Leggings",
+      "item.porcosmod.porcarmor_armor_boots": "Porcarmor Boots",
+      "entity.porcosmod.radagon": "Radagon",
+      "item.porcosmod.porcarmor_armor_chestplate": "Porcarmor Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "porcosmod",
+    "modName": "PorcosMod",
+    "version": "1.0.0",
+    "author": "Yaler, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.porcosland.porcosmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

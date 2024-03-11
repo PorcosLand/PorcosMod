@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "casco_rosa",
+    "textureHelmet": "porchelmet",
     "enableBody": true,
-    "textureBody": "pechera_rosa",
+    "textureBody": "porcchest",
     "enableLeggings": true,
-    "textureLeggings": "pantalones_rosas",
+    "textureLeggings": "porcolones",
     "enableBoots": true,
-    "textureBoots": "botas_rosas",
+    "textureBoots": "porcoleggings",
     "creativeTab": {
       "value": "COMBAT"
     },
     "armorTextureFile": "porcarmor",
-    "helmetName": "Porcaronium Helmet",
-    "bodyName": "Porconium Chestplate",
-    "leggingsName": "Porconium Leggings",
-    "bootsName": "Porconium Boots",
+    "helmetName": "Porcarmor Helmet",
+    "bodyName": "Porcarmor Chestplate",
+    "leggingsName": "Porcarmor Leggings",
+    "bootsName": "Porcarmor Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },
@@ -41,7 +41,7 @@
     "leggingsModelName": "Default",
     "leggingsModelPartL": "Leggings L",
     "leggingsModelPartR": "Leggings R",
-    "leggingsModelTexture": "pink2.png",
+    "leggingsModelTexture": "diamond_layer_2.png",
     "bootsModelName": "Default",
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
@@ -70,16 +70,16 @@
     "bootsPiglinNeutral": {
       "fixedValue": false
     },
-    "maxDamage": 200,
-    "damageValueHelmet": 6,
-    "damageValueBody": 15,
-    "damageValueLeggings": 18,
-    "damageValueBoots": 6,
-    "enchantability": 30,
-    "toughness": 3.0,
-    "knockbackResistance": 0.1,
+    "maxDamage": 15,
+    "damageValueHelmet": 2,
+    "damageValueBody": 5,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_netherite"
+      "value": ""
     },
     "repairItems": [
       {
