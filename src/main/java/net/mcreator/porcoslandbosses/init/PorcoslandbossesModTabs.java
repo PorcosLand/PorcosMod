@@ -31,6 +31,7 @@ public class PorcoslandbossesModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PorcoslandbossesModItems.RADAGON_SPAWN_EGG.get());
+			tabData.accept(PorcoslandbossesModItems.TITI_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {

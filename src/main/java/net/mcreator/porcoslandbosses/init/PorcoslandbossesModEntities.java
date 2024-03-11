@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.porcoslandbosses.entity.TitiEntity;
 import net.mcreator.porcoslandbosses.entity.RadagonEntity;
 import net.mcreator.porcoslandbosses.PorcoslandbossesMod;
 
@@ -24,6 +25,10 @@ public class PorcoslandbossesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, PorcoslandbossesMod.MODID);
 	public static final RegistryObject<EntityType<RadagonEntity>> RADAGON = register("radagon",
 			EntityType.Builder.<RadagonEntity>of(RadagonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RadagonEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TitiEntity>> TITI = register("titi",
+			EntityType.Builder.<TitiEntity>of(TitiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TitiEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -35,11 +40,13 @@ public class PorcoslandbossesModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			RadagonEntity.init();
+			TitiEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RADAGON.get(), RadagonEntity.createAttributes().build());
+		event.put(TITI.get(), TitiEntity.createAttributes().build());
 	}
 }
