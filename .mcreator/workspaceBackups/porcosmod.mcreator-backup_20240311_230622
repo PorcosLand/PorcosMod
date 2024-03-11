@@ -116,17 +116,71 @@
           "src/main/resources/data/porcosmod/recipes/porcarmor_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Titi",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/titi_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/titi_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/TitiRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/TitiEntity.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "Boss",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "Bucle",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "titi.live",
+      "files": [
+        "doit",
+        "titidu",
+        "titiname",
+        "uglygly"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "titi.hit",
+      "files": [
+        "titihit",
+        "titihit2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.porcosmod.porcarmor_armor_helmet": "Porcarmor Helmet",
+      "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.porconium": "Porconium",
+      "subtitles.titi.hit": "",
+      "entity.porcosmod.titi": "Titi",
       "item.porcosmod.porcarmor_armor_leggings": "Porcarmor Leggings",
       "item.porcosmod.porcarmor_armor_boots": "Porcarmor Boots",
+      "subtitles.titi.live": "",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.porcarmor_armor_chestplate": "Porcarmor Chestplate"
     }

@@ -121,6 +121,9 @@
       "value": "entity.irongolem.step"
     },
     "entityDataEntries": [],
+    "onStruckByLightning": {
+      "name": "RadagonItIsStruckByLightning"
+    },
     "whenMobDies": {
       "name": "RadagonAlMorir"
     },

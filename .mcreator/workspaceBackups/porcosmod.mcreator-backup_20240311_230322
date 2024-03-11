@@ -134,7 +134,20 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Boss",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    },
+    {
+      "name": "Bucle",
+      "type": "logic",
+      "scope": "map",
+      "value": "true"
+    }
+  ],
   "sound_elements": [
     {
       "name": "titi.live",

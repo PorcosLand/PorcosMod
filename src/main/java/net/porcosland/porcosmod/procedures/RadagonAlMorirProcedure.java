@@ -1,16 +1,44 @@
 package net.porcosland.porcosmod.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
+import net.porcosland.porcosmod.init.PorcosmodModEntities;
+import net.porcosland.porcosmod.PorcosmodMod;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.ServerChatEvent;
+
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraft.core.BlockPos;
 
+import javax.annotation.Nullable;
+
+@Mod.EventBusSubscriber
 public class RadagonAlMorirProcedure {
+	@SubscribeEvent
+	public static void onChat(ServerChatEvent event) {
+		execute(event, event.getPlayer().level());
+	}
+
 	public static void execute(LevelAccessor world) {
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3((-361), 112, (-582)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "clear");
+		execute(null, world);
+	}
+
+	private static void execute(@Nullable Event event, LevelAccessor world) {
+		boolean bossSpawn = false;
+		PorcosmodMod.queueServerWork(1, () -> {
+			if (world instanceof ServerLevel _level) {
+				Entity entityToSpawn = PorcosmodModEntities.RADAGON.get().spawn(_level, new BlockPos(-29, 86, -1188), MobSpawnType.MOB_SUMMONED);
+				if (entityToSpawn != null) {
+					entityToSpawn.setYRot(world.getRandom().nextFloat() * 360F);
+				}
+			}
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("\u00A7eEl \u00A74Radagon \u00A7eha vuelto a spawnear en el mundo"), false);
+		});
 	}
 }

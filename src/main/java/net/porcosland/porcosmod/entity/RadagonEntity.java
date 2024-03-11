@@ -1,6 +1,7 @@
 
 package net.porcosland.porcosmod.entity;
 
+import net.porcosland.porcosmod.procedures.RadagonItIsStruckByLightningProcedure;
 import net.porcosland.porcosmod.procedures.RadagonAlMorirProcedure;
 import net.porcosland.porcosmod.init.PorcosmodModEntities;
 
@@ -21,10 +22,12 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
@@ -97,6 +100,12 @@ public class RadagonEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public void thunderHit(ServerLevel serverWorld, LightningBolt lightningBolt) {
+		super.thunderHit(serverWorld, lightningBolt);
+		RadagonItIsStruckByLightningProcedure.execute(this);
 	}
 
 	@Override
