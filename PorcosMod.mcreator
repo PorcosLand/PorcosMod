@@ -116,18 +116,50 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "titi.du",
+      "files": [
+        "titidu"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "titi.live",
+      "files": [
+        "doit",
+        "titidu",
+        "titiname",
+        "uglygly"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "titi.hit",
+      "files": [
+        "titihit",
+        "titihit2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.porcoslandbosses.porcarmor_armor_chestplate": "Porconium Chestplate",
-      "item.porcoslandbosses.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcoslandbosses.porconium": "Porconium",
-      "item.porcoslandbosses.radagon_spawn_egg": "Radagon Spawn Egg",
-      "item.porcoslandbosses.porcarmor_armor_boots": "Porconium Boots",
-      "entity.porcoslandbosses.radagon": "Radagon",
+      "subtitles.titi.hit": "",
       "item.porcoslandbosses.porcarmor_armor_leggings": "Porconium Leggings",
       "entity.porcoslandbosses.titi": "Titi",
-      "item.porcoslandbosses.porcarmor_armor_helmet": "Porcaronium Helmet"
+      "subtitles.titi.live": "",
+      "item.porcoslandbosses.porcarmor_armor_helmet": "Porcaronium Helmet",
+      "subtitles.titi.du": "",
+      "item.porcoslandbosses.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcoslandbosses.radagon_spawn_egg": "Radagon Spawn Egg",
+      "item.porcoslandbosses.porcarmor_armor_boots": "Porconium Boots",
+      "entity.porcoslandbosses.radagon": "Radagon"
     }
   },
   "foldersRoot": {

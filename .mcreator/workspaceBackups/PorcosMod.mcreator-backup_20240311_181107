@@ -116,7 +116,27 @@
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "titi.du",
+      "files": [
+        "titidu"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "titi.live",
+      "files": [
+        "doit",
+        "titidu",
+        "titiname",
+        "uglygly"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.porcoslandbosses.porcarmor_armor_chestplate": "Porconium Chestplate",
@@ -127,7 +147,9 @@
       "entity.porcoslandbosses.radagon": "Radagon",
       "item.porcoslandbosses.porcarmor_armor_leggings": "Porconium Leggings",
       "entity.porcoslandbosses.titi": "Titi",
-      "item.porcoslandbosses.porcarmor_armor_helmet": "Porcaronium Helmet"
+      "subtitles.titi.live": "",
+      "item.porcoslandbosses.porcarmor_armor_helmet": "Porcaronium Helmet",
+      "subtitles.titi.du": ""
     }
   },
   "foldersRoot": {

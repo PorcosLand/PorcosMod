@@ -1,0 +1,42 @@
+{
+  "titi.du": {
+    "sounds": [
+      {
+        "name": "porcoslandbosses:titidu",
+        "stream": false
+      }
+    ]
+  },
+  "titi.live": {
+    "sounds": [
+      {
+        "name": "porcoslandbosses:doit",
+        "stream": false
+      },
+      {
+        "name": "porcoslandbosses:titidu",
+        "stream": false
+      },
+      {
+        "name": "porcoslandbosses:titiname",
+        "stream": false
+      },
+      {
+        "name": "porcoslandbosses:uglygly",
+        "stream": false
+      }
+    ]
+  },
+  "titi.hit": {
+    "sounds": [
+      {
+        "name": "porcoslandbosses:titihit",
+        "stream": false
+      },
+      {
+        "name": "porcoslandbosses:titihit2",
+        "stream": false
+      }
+    ]
+  }
+}

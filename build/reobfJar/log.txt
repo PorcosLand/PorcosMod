@@ -136,11 +136,11 @@ Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/renderer/RadagonRenderer$1/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V from net/minecraft/client/renderer/entity/layers/RenderLayer/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V: render -> m_6494_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/model/ModelTiti/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/model/ModelTiti/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/model/Modelprueba/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/model/ModelTiti/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/model/Modelprueba/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/renderer/TitiRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/renderer/RadagonRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Boots/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
@@ -155,16 +155,18 @@ Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEnti
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/TitiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorconiumItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
@@ -173,7 +175,6 @@ Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorA
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -196,6 +197,14 @@ Writing Output: C:\Users\Yaler\MCreatorWorkspaces\PorcosMod\build\reobfJar\outpu
   assets/porcoslandbosses/models/item/porconium.json
   assets/porcoslandbosses/models/item/radagon_spawn_egg.json
   assets/porcoslandbosses/models/item/titi_spawn_egg.json
+  assets/porcoslandbosses/sounds.json
+  assets/porcoslandbosses/sounds/
+  assets/porcoslandbosses/sounds/doit.ogg
+  assets/porcoslandbosses/sounds/titidu.ogg
+  assets/porcoslandbosses/sounds/titihit.ogg
+  assets/porcoslandbosses/sounds/titihit2.ogg
+  assets/porcoslandbosses/sounds/titiname.ogg
+  assets/porcoslandbosses/sounds/uglygly.ogg
   assets/porcoslandbosses/textures/
   assets/porcoslandbosses/textures/entities/
   assets/porcoslandbosses/textures/entities/diamond_layer_2.png
@@ -259,6 +268,7 @@ Writing Output: C:\Users\Yaler\MCreatorWorkspaces\PorcosMod\build\reobfJar\outpu
   net/mcreator/porcoslandbosses/init/PorcoslandbossesModEntityRenderers.class
   net/mcreator/porcoslandbosses/init/PorcoslandbossesModItems.class
   net/mcreator/porcoslandbosses/init/PorcoslandbossesModModels.class
+  net/mcreator/porcoslandbosses/init/PorcoslandbossesModSounds.class
   net/mcreator/porcoslandbosses/init/PorcoslandbossesModTabs.class
   net/mcreator/porcoslandbosses/item/
   net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1.class

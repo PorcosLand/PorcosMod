@@ -67,8 +67,13 @@ public class TitiEntity extends Monster {
 	}
 
 	@Override
+	public SoundEvent getAmbientSound() {
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("porcoslandbosses:titi.live"));
+	}
+
+	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("porcoslandbosses:titi.hit"));
 	}
 
 	@Override

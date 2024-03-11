@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.porcoslandbosses.init.PorcoslandbossesModTabs;
+import net.mcreator.porcoslandbosses.init.PorcoslandbossesModSounds;
 import net.mcreator.porcoslandbosses.init.PorcoslandbossesModItems;
 import net.mcreator.porcoslandbosses.init.PorcoslandbossesModEntities;
 
@@ -50,6 +51,7 @@ public class PorcoslandbossesMod {
 	public PorcoslandbossesMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		PorcoslandbossesModSounds.REGISTRY.register(bus);
 
 		PorcoslandbossesModItems.REGISTRY.register(bus);
 		PorcoslandbossesModEntities.REGISTRY.register(bus);

@@ -103,10 +103,10 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:titi.live"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:titi.hit"
     },
     "deathSound": {
       "value": "entity.generic.death"
