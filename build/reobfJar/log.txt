@@ -135,8 +135,8 @@ Reading Input: C:\Users\Yaler\MCreatorWorkspaces\PorcosMod\build\libs\modid-1.0.
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/renderer/RadagonRenderer$1/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V from net/minecraft/client/renderer/entity/layers/RenderLayer/render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/entity/Entity;FFFFFF)V: render -> m_6494_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/entity/RadagonEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
@@ -145,9 +145,9 @@ Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorA
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/client/renderer/RadagonRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Helmet/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Boots/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Chestplate/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Helmet/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorcarmorArmorItem$Leggings/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/porcoslandbosses/item/PorconiumItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
@@ -184,9 +184,15 @@ Writing Output: C:\Users\Yaler\MCreatorWorkspaces\PorcosMod\build\reobfJar\outpu
   assets/porcoslandbosses/models/item/radagon_spawn_egg.json
   assets/porcoslandbosses/textures/
   assets/porcoslandbosses/textures/entities/
+  assets/porcoslandbosses/textures/entities/diamond_layer_1.png
   assets/porcoslandbosses/textures/entities/jefa_gremio.png
+  assets/porcoslandbosses/textures/entities/pinkarmor1.png
   assets/porcoslandbosses/textures/entities/radagon.png
   assets/porcoslandbosses/textures/item/
+  assets/porcoslandbosses/textures/item/armorrosa1_body.png
+  assets/porcoslandbosses/textures/item/armorrosa1_boots.png
+  assets/porcoslandbosses/textures/item/armorrosa1_head.png
+  assets/porcoslandbosses/textures/item/armorrosa1_leggings.png
   assets/porcoslandbosses/textures/item/botas_rosas.png
   assets/porcoslandbosses/textures/item/casco_rosa.png
   assets/porcoslandbosses/textures/item/pantalones_rosas.png
@@ -202,6 +208,12 @@ Writing Output: C:\Users\Yaler\MCreatorWorkspaces\PorcosMod\build\reobfJar\outpu
   assets/porcoslandbosses/textures/item/porconium_leggings.png
   assets/porcoslandbosses/textures/models/
   assets/porcoslandbosses/textures/models/armor/
+  assets/porcoslandbosses/textures/models/armor/armorrosa1_layer_1.png
+  assets/porcoslandbosses/textures/models/armor/armorrosa1_layer_2.png
+  assets/porcoslandbosses/textures/models/armor/diamond__layer_1.png
+  assets/porcoslandbosses/textures/models/armor/diamond__layer_2.png
+  assets/porcoslandbosses/textures/models/armor/leather__overlay_layer_1.png
+  assets/porcoslandbosses/textures/models/armor/leather__overlay_layer_2.png
   assets/porcoslandbosses/textures/models/armor/porcarmor_layer_1.png
   assets/porcoslandbosses/textures/models/armor/porcarmor_layer_2.png
   assets/porcoslandbosses/textures/models/armor/porconium_layer_1.png
