@@ -15,6 +15,6 @@ public class TitiRenderer extends MobRenderer<TitiEntity, ModelTiti<TitiEntity>>
 
 	@Override
 	public ResourceLocation getTextureLocation(TitiEntity entity) {
-		return new ResourceLocation("porcoslandbosses:textures/entities/tititexturenew.png");
+		return new ResourceLocation("porcoslandbosses:textures/entities/texturatiti.png");
 	}
 }

@@ -5,7 +5,7 @@
     "mobName": "Titi",
     "mobLabel": "",
     "mobModelName": "ModelTiti",
-    "mobModelTexture": "tititexturenew.png",
+    "mobModelTexture": "texturatiti.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
