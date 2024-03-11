@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "porcoleggings",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:PorcosMod"
     },
     "armorTextureFile": "porcarmor",
-    "helmetName": "Porcarmor Helmet",
-    "bodyName": "Porcarmor Chestplate",
-    "leggingsName": "Porcarmor Leggings",
-    "bootsName": "Porcarmor Boots",
+    "helmetName": "Porconium Helmet",
+    "bodyName": "Porconium Chestplate",
+    "leggingsName": "Porconium Leggings",
+    "bootsName": "Porconium Boots",
     "helmetSpecialInformation": {
       "fixedValue": []
     },

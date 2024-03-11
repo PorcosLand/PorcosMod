@@ -10,7 +10,7 @@
     "name": "Porconium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:PorcosMod"
     },
     "stackSize": 64,
     "enchantability": 0,
