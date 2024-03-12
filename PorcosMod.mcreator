@@ -261,6 +261,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Gorgon",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/client/renderer/GorgonRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/GorgonEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/gorgon_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -327,12 +342,14 @@
     "en_us": {
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
+      "entity.porcosmod.gorgon": "Gorgon",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "subtitles.titi.hit": "",
       "entity.porcosmod.titi": "Titi",
       "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "entity.porcosmod.radagon": "Radagon",
+      "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",

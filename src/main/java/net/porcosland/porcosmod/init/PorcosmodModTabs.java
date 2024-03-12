@@ -39,6 +39,7 @@ public class PorcosmodModTabs {
 			tabData.accept(PorcosmodModItems.RADAGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.TITI_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.IGRIS_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.GORGON_SPAWN_EGG.get());
 		}
 	}
 }
