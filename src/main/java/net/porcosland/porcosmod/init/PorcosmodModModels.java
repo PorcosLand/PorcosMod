@@ -5,6 +5,7 @@
 package net.porcosland.porcosmod.init;
 
 import net.porcosland.porcosmod.client.model.ModelTiti;
+import net.porcosland.porcosmod.client.model.ModelIgris;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -15,6 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class PorcosmodModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelIgris.LAYER_LOCATION, ModelIgris::createBodyLayer);
 		event.registerLayerDefinition(ModelTiti.LAYER_LOCATION, ModelTiti::createBodyLayer);
 	}
 }

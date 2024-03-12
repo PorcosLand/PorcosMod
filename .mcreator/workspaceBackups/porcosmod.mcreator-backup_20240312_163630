@@ -8,6 +8,9 @@
       "locked_code": false,
       "registry_name": "radagon_al_morir",
       "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonAlMorirProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "world",
@@ -148,20 +151,75 @@
           }
         ]
       }
+    },
+    {
+      "name": "RadagonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PorcosMod",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcos_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Igris",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/IgrisEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/IgrisRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/igris_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
-      "name": "Boss",
-      "type": "logic",
+      "name": "setXRadagon",
+      "type": "number",
       "scope": "map",
-      "value": "true"
+      "value": "0"
     },
     {
-      "name": "Bucle",
-      "type": "logic",
+      "name": "setYRadagon",
+      "type": "number",
       "scope": "map",
-      "value": "true"
+      "value": "0"
+    },
+    {
+      "name": "setZRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -188,17 +246,20 @@
   ],
   "language_map": {
     "en_us": {
-      "item.porcosmod.porcarmor_armor_helmet": "Porcarmor Helmet",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
-      "item.porcosmod.porconium": "Porconium",
       "subtitles.titi.hit": "",
       "entity.porcosmod.titi": "Titi",
-      "item.porcosmod.porcarmor_armor_leggings": "Porcarmor Leggings",
-      "item.porcosmod.porcarmor_armor_boots": "Porcarmor Boots",
+      "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "entity.porcosmod.radagon": "Radagon",
-      "item.porcosmod.porcarmor_armor_chestplate": "Porcarmor Chestplate"
+      "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+      "item_group.porcosmod.porcos_mod": "Porcos Mod",
+      "item.porcosmod.porconium": "Porconium",
+      "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate"
     }
   },
   "foldersRoot": {

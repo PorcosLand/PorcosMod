@@ -38,6 +38,7 @@ public class PorcosmodModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PorcosmodModItems.RADAGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.TITI_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.IGRIS_SPAWN_EGG.get());
 		}
 	}
 }

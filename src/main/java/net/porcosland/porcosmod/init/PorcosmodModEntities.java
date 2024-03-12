@@ -6,6 +6,7 @@ package net.porcosland.porcosmod.init;
 
 import net.porcosland.porcosmod.entity.TitiEntity;
 import net.porcosland.porcosmod.entity.RadagonEntity;
+import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.PorcosmodMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -31,6 +32,10 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<TitiEntity>of(TitiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TitiEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<IgrisEntity>> IGRIS = register("igris",
+			EntityType.Builder.<IgrisEntity>of(IgrisEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(IgrisEntity::new)
+
+					.sized(0.6f, 6.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -41,6 +46,7 @@ public class PorcosmodModEntities {
 		event.enqueueWork(() -> {
 			RadagonEntity.init();
 			TitiEntity.init();
+			IgrisEntity.init();
 		});
 	}
 
@@ -48,5 +54,6 @@ public class PorcosmodModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RADAGON.get(), RadagonEntity.createAttributes().build());
 		event.put(TITI.get(), TitiEntity.createAttributes().build());
+		event.put(IGRIS.get(), IgrisEntity.createAttributes().build());
 	}
 }

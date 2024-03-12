@@ -185,6 +185,21 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Igris",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/IgrisEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/IgrisRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/igris_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -232,17 +247,19 @@
   "language_map": {
     "en_us": {
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "subtitles.titi.hit": "",
       "entity.porcosmod.titi": "Titi",
+      "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "entity.porcosmod.radagon": "Radagon",
-      "item.porcosmod.porcarmor_armor_helmet": "Porcarmor Helmet",
+      "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",
-      "item.porcosmod.porcarmor_armor_leggings": "Porcarmor Leggings",
-      "item.porcosmod.porcarmor_armor_boots": "Porcarmor Boots",
-      "item.porcosmod.porcarmor_armor_chestplate": "Porcarmor Chestplate"
+      "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate"
     }
   },
   "foldersRoot": {

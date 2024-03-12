@@ -103,5 +103,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-03-12 16:31:15 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

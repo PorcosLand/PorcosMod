@@ -1,153 +1,98 @@
-[12Mar2024 09:12:51.299] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Yaler\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[12Mar2024 09:12:51.303] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[12Mar2024 09:12:51.455] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[12Mar2024 09:12:51.535] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[12Mar2024 09:12:51.762] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[12Mar2024 09:12:51.878] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Yaler/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[12Mar2024 09:12:51.959] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 551.61, NVIDIA Corporation
-[12Mar2024 09:12:52.226] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12Mar2024 09:12:52.231] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12Mar2024 09:12:52.234] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[12Mar2024 09:12:52.238] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[12Mar2024 09:12:52.319] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[12Mar2024 09:12:53.461] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Yaler\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[12Mar2024 09:12:56.964] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 181 milliseconds
-[12Mar2024 09:12:58.675] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Yaler/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[12Mar2024 09:12:58.676] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Yaler/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[12Mar2024 09:12:58.697] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Mar2024 09:12:58.705] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[12Mar2024 09:12:58.838] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[12Mar2024 09:12:59.112] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[12Mar2024 09:12:59.116] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[12Mar2024 09:12:59.982] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[12Mar2024 09:13:00.202] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[12Mar2024 09:13:00.333] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[12Mar2024 09:13:00.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Mar2024 09:13:01.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
-[12Mar2024 09:13:02.701] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[12Mar2024 09:13:02.701] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[12Mar2024 09:13:02.728] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Razer Barracuda X)
-[12Mar2024 09:13:02.729] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[12Mar2024 09:13:02.870] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[12Mar2024 09:13:02.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[12Mar2024 09:13:02.878] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[12Mar2024 09:13:02.879] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[12Mar2024 09:13:02.879] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[12Mar2024 09:13:02.882] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[12Mar2024 09:13:02.883] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[12Mar2024 09:13:02.883] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[12Mar2024 09:13:02.883] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[12Mar2024 09:13:03.002] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[12Mar2024 09:13:03.050] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[12Mar2024 09:13:03.051] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[12Mar2024 09:13:03.051] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[12Mar2024 09:13:03.290] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[12Mar2024 09:13:11.874] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[12Mar2024 09:13:13.462] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[12Mar2024 09:13:13.562] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[12Mar2024 09:13:14.048] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[12Mar2024 09:13:14.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12Mar2024 09:13:15.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[12Mar2024 09:13:16.728] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2024 09:13:16.728] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2024 09:13:16.728] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2024 09:13:16.728] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2024 09:13:17.131] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[12Mar2024 09:13:17.639] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[12Mar2024 09:13:17.861] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[12Mar2024 09:13:17.875] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2752 ms
-[12Mar2024 09:13:18.006] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[12Mar2024 09:13:18.008] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[12Mar2024 09:13:18.122] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[12Mar2024 09:13:18.583] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[12Mar2024 09:13:18.624] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:1fcef61d] logged in with entity id 24 at (-5.970628140794982, 88.11813573259002, -1196.2002601529653)
-[12Mar2024 09:13:18.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[12Mar2024 09:13:18.963] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 50 advancements
-[12Mar2024 09:13:43.437] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/442, l='ServerLevel[Pruebas]', x=19.56, y=78.00, z=-1230.88] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:43.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:43.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:45.337] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/508, l='ServerLevel[Pruebas]', x=17.62, y=78.00, z=-1229.52] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:45.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:45.371] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:46.887] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/514, l='ServerLevel[Pruebas]', x=18.41, y=78.00, z=-1229.26] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:46.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:46.917] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:48.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/527, l='ServerLevel[Pruebas]', x=19.44, y=78.00, z=-1229.82] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:48.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:49.437] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/538, l='ServerLevel[Pruebas]', x=18.57, y=78.00, z=-1229.62] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:49.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:49.470] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:51.137] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/540, l='ServerLevel[Pruebas]', x=19.28, y=78.00, z=-1228.16] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:51.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:51.168] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:52.837] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/547, l='ServerLevel[Pruebas]', x=17.87, y=78.00, z=-1228.82] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:52.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:52.868] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:54.537] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/550, l='ServerLevel[Pruebas]', x=15.94, y=78.00, z=-1229.71] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:54.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:54.567] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:55.786] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/558, l='ServerLevel[Pruebas]', x=16.24, y=78.00, z=-1230.04] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:55.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:55.816] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:56.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/560, l='ServerLevel[Pruebas]', x=16.33, y=78.00, z=-1230.15] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:56.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:56.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:57.936] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/564, l='ServerLevel[Pruebas]', x=16.33, y=78.00, z=-1230.15] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:57.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:57.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:59.586] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/574, l='ServerLevel[Pruebas]', x=15.03, y=78.00, z=-1228.64] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:13:59.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:13:59.616] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:01.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/577, l='ServerLevel[Pruebas]', x=15.03, y=78.00, z=-1228.64] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:01.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:01.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:02.986] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/581, l='ServerLevel[Pruebas]', x=14.88, y=78.00, z=-1228.47] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:03.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:03.019] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:04.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/593, l='ServerLevel[Pruebas]', x=14.89, y=78.00, z=-1228.48] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:04.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:04.767] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:06.285] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/600, l='ServerLevel[Pruebas]', x=14.91, y=78.00, z=-1228.50] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:06.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:06.317] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:07.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/602, l='ServerLevel[Pruebas]', x=16.27, y=78.00, z=-1230.08] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:07.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:07.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:08.835] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/604, l='ServerLevel[Pruebas]', x=14.90, y=78.00, z=-1228.49] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:08.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:08.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:09.987] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/610, l='ServerLevel[Pruebas]', x=16.22, y=78.00, z=-1230.02] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:10.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:10.017] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:11.186] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/615, l='ServerLevel[Pruebas]', x=16.22, y=78.00, z=-1230.02] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:11.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:11.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:12.337] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/619, l='ServerLevel[Pruebas]', x=16.22, y=78.00, z=-1230.02] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:12.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:12.370] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:13.486] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity RadagonEntity['Radagon de la Orden Dorada'/623, l='ServerLevel[Pruebas]', x=16.24, y=78.00, z=-1230.04] died: Radagon de la Orden Dorada was slain by Dev
-[12Mar2024 09:14:13.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:13.518] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] El Radagon ha vuelto a spawnear en el mundo
-[12Mar2024 09:14:21.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new Lightning Bolt]
-[12Mar2024 09:14:21.729] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Summoned new Lightning Bolt
-[12Mar2024 09:15:03.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
-[12Mar2024 09:15:03.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
-[12Mar2024 09:15:25.362] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[12Mar2024 09:15:25.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
-[12Mar2024 09:15:25.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
-[12Mar2024 09:15:25.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
-[12Mar2024 09:15:26.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[12Mar2024 09:15:26.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[12Mar2024 09:15:26.123] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[12Mar2024 09:15:26.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12Mar2024 09:15:26.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12Mar2024 09:15:26.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12Mar2024 09:15:27.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
-[12Mar2024 09:15:27.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
-[12Mar2024 09:15:27.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
-[12Mar2024 09:15:27.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Pruebas): All chunks are saved
-[12Mar2024 09:15:27.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12Mar2024 09:15:27.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12Mar2024 09:15:27.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12Mar2024 09:15:29.471] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[12Mar2024 17:22:34.071] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\Yaler\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[12Mar2024 17:22:34.075] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12Mar2024 17:22:34.195] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[12Mar2024 17:22:34.283] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[12Mar2024 17:22:34.459] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[12Mar2024 17:22:34.565] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Yaler/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[12Mar2024 17:22:34.638] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4070/PCIe/SSE2 GL version 4.6.0 NVIDIA 551.61, NVIDIA Corporation
+[12Mar2024 17:22:34.841] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Mar2024 17:22:34.844] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Mar2024 17:22:34.848] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Mar2024 17:22:34.852] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Yaler\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[12Mar2024 17:22:34.922] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Mar2024 17:22:36.001] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Yaler\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[12Mar2024 17:22:39.314] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 174 milliseconds
+[12Mar2024 17:22:40.905] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Yaler/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[12Mar2024 17:22:40.905] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Yaler/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[12Mar2024 17:22:40.922] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Mar2024 17:22:40.927] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[12Mar2024 17:22:41.068] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[12Mar2024 17:22:41.418] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[12Mar2024 17:22:41.419] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[12Mar2024 17:22:42.253] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[12Mar2024 17:22:42.473] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[12Mar2024 17:22:42.587] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[12Mar2024 17:22:42.611] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Mar2024 17:22:43.267] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[12Mar2024 17:22:45.032] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[12Mar2024 17:22:45.033] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[12Mar2024 17:22:45.062] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Razer Barracuda X)
+[12Mar2024 17:22:45.063] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[12Mar2024 17:22:45.167] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[12Mar2024 17:22:45.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[12Mar2024 17:22:45.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[12Mar2024 17:22:45.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[12Mar2024 17:22:45.176] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[12Mar2024 17:22:45.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[12Mar2024 17:22:45.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[12Mar2024 17:22:45.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12Mar2024 17:22:45.180] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[12Mar2024 17:22:45.301] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[12Mar2024 17:22:45.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12Mar2024 17:22:45.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12Mar2024 17:22:45.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12Mar2024 17:22:45.553] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[12Mar2024 17:23:01.717] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[12Mar2024 17:23:03.150] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[12Mar2024 17:23:03.247] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[12Mar2024 17:23:03.653] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[12Mar2024 17:23:03.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Mar2024 17:23:04.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Mar2024 17:23:07.241] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.241] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.241] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.242] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.262] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Mar2024 17:23:07.763] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[12Mar2024 17:23:08.263] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[12Mar2024 17:23:08.335] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3575 ms
+[12Mar2024 17:23:08.338] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Mar2024 17:23:08.480] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[12Mar2024 17:23:08.484] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[12Mar2024 17:23:08.629] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[12Mar2024 17:23:09.107] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[12Mar2024 17:23:09.151] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:4eecb9f0] logged in with entity id 24 at (125.89947760574412, 95.28271854438606, -1376.7296975928614)
+[12Mar2024 17:23:09.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[12Mar2024 17:23:09.491] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 51 advancements
+[12Mar2024 17:23:14.890] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[12Mar2024 17:23:14.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
+[12Mar2024 17:23:14.922] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
+[12Mar2024 17:23:14.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
+[12Mar2024 17:23:17.590] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[12Mar2024 17:23:17.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
+[12Mar2024 17:23:17.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
+[12Mar2024 17:23:17.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
+[12Mar2024 17:23:19.741] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[12Mar2024 17:23:19.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
+[12Mar2024 17:23:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
+[12Mar2024 17:23:19.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
+[12Mar2024 17:23:42.880] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity IgrisEntity['Igris'/408, l='ServerLevel[Pruebas]', x=143.70, y=93.00, z=-1378.03] died: Igris was slain by Dev
+[12Mar2024 17:23:47.440] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[12Mar2024 17:23:47.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
+[12Mar2024 17:23:47.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
+[12Mar2024 17:23:47.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
+[12Mar2024 17:27:14.255] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[12Mar2024 17:27:14.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[12Mar2024 17:27:14.263] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[12Mar2024 17:27:14.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Mar2024 17:27:14.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Mar2024 17:27:14.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Mar2024 17:27:15.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:overworld
+[12Mar2024 17:27:15.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_nether
+[12Mar2024 17:27:15.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Pruebas]'/minecraft:the_end
+[12Mar2024 17:27:15.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Pruebas): All chunks are saved
+[12Mar2024 17:27:15.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Mar2024 17:27:15.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Mar2024 17:27:15.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Mar2024 17:27:17.217] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
