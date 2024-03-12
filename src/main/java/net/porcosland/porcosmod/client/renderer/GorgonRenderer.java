@@ -15,6 +15,6 @@ public class GorgonRenderer extends MobRenderer<GorgonEntity, ModelGorgon<Gorgon
 
 	@Override
 	public ResourceLocation getTextureLocation(GorgonEntity entity) {
-		return new ResourceLocation("porcosmod:textures/entities/gorgontexture.png");
+		return new ResourceLocation("porcosmod:textures/entities/gorgontextureedit.png");
 	}
 }

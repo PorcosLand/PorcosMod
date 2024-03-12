@@ -5,7 +5,7 @@
     "mobName": "Gorgon",
     "mobLabel": "",
     "mobModelName": "ModelGorgon",
-    "mobModelTexture": "gorgontexture.png",
+    "mobModelTexture": "gorgontextureedit.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
