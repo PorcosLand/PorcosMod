@@ -185,6 +185,82 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Igris",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/IgrisEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/IgrisRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/igris_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "IgrisEntityDies",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IgrisOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IgrisItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -202,6 +278,24 @@
     },
     {
       "name": "setZRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setXIgris",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setYIgris",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setZIgris",
       "type": "number",
       "scope": "map",
       "value": "0"
@@ -232,9 +326,11 @@
   "language_map": {
     "en_us": {
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
-      "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
+      "entity.porcosmod.titi": "Titi",
+      "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",

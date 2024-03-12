@@ -242,6 +242,25 @@
           }
         ]
       }
+    },
+    {
+      "name": "IgrisItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
