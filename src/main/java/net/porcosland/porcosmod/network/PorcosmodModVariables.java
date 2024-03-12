@@ -90,6 +90,9 @@ public class PorcosmodModVariables {
 		public double setXRadagon = 0;
 		public double setYRadagon = 0;
 		public double setZRadagon = 0;
+		public double setXIgris = 0;
+		public double setYIgris = 0;
+		public double setZIgris = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -101,6 +104,9 @@ public class PorcosmodModVariables {
 			setXRadagon = nbt.getDouble("setXRadagon");
 			setYRadagon = nbt.getDouble("setYRadagon");
 			setZRadagon = nbt.getDouble("setZRadagon");
+			setXIgris = nbt.getDouble("setXIgris");
+			setYIgris = nbt.getDouble("setYIgris");
+			setZIgris = nbt.getDouble("setZIgris");
 		}
 
 		@Override
@@ -108,6 +114,9 @@ public class PorcosmodModVariables {
 			nbt.putDouble("setXRadagon", setXRadagon);
 			nbt.putDouble("setYRadagon", setYRadagon);
 			nbt.putDouble("setZRadagon", setZRadagon);
+			nbt.putDouble("setXIgris", setXIgris);
+			nbt.putDouble("setYIgris", setYIgris);
+			nbt.putDouble("setZIgris", setZIgris);
 			return nbt;
 		}
 
