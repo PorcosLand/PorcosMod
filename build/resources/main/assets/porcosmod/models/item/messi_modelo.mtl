@@ -1,0 +1,162 @@
+newmtl AvatarBody.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarEyelashes.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarHead.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarLeftCornea.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarRightCornea.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarTeethLower.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl AvatarTeethUpper.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl Material.001
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.002
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl Material.004
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.005
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.008
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl Material.013
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.016
+illum 2
+Ns 0.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.017
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.0 0.0 0.0
+newmtl Material.018
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Kd 1.0 0.530131 0.685296
+Ks 0.5 0.5 0.5
+Ke 0.0 0.0 0.0
+newmtl Textured.002
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.06301 0.376262 0.0
+newmtl Textured.003
+illum 2
+Ns 250.0
+Ni 1.45
+d 1.0
+Ka 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+map_Kd porcosmod:block/
+Ke 0.06301 0.376262 0.0

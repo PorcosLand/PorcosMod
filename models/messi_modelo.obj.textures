@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Material.017": "",
+        "Material.005": "",
+        "Material.016": "",
+        "Material.004": "",
+        "Material.013": "",
+        "Material.001": "",
+        "Textured.002": "",
+        "Textured.003": ""
+      },
+      "name": "default"
+    }
+  }
+}

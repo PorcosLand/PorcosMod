@@ -8,6 +8,7 @@ import net.porcosland.porcosmod.client.renderer.TitiRenderer;
 import net.porcosland.porcosmod.client.renderer.RadagonRenderer;
 import net.porcosland.porcosmod.client.renderer.IgrisRenderer;
 import net.porcosland.porcosmod.client.renderer.GorgonRenderer;
+import net.porcosland.porcosmod.client.renderer.DevilGirlRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,5 +23,6 @@ public class PorcosmodModEntityRenderers {
 		event.registerEntityRenderer(PorcosmodModEntities.TITI.get(), TitiRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.IGRIS.get(), IgrisRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.GORGON.get(), GorgonRenderer::new);
+		event.registerEntityRenderer(PorcosmodModEntities.DEVIL_GIRL.get(), DevilGirlRenderer::new);
 	}
 }
