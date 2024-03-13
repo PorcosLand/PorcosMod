@@ -33,6 +33,11 @@ public class RadagonRenderer extends HumanoidMobRenderer<RadagonEntity, Humanoid
 	}
 
 	@Override
+	protected void scale(RadagonEntity entity, PoseStack poseStack, float f) {
+		poseStack.scale(1.5f, 1.5f, 1.5f);
+	}
+
+	@Override
 	public ResourceLocation getTextureLocation(RadagonEntity entity) {
 		return new ResourceLocation("porcosmod:textures/entities/radagon.png");
 	}

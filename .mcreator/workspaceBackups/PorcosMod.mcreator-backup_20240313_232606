@@ -334,6 +334,210 @@
           "src/main/resources/assets/porcosmod/models/item/porcoin_de_bronce.json"
         ]
       }
+    },
+    {
+      "name": "BloqueDePorconium",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloque_de_porconium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/blockstates/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/block/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/item/bloque_de_porconium.json",
+          "src/main/java/net/porcosland/porcosmod/block/BloqueDePorconiumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_sword.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_tool_pickaxe.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumToolPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolAxe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumToolAxeItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_tool_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolSword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_tool_sword.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumToolSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolShovel",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumToolShovelItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_tool_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolHoe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumToolHoeItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_tool_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_tool_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolAxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_tool_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolSwordRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_tool_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_tool_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumToolHoeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_tool_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_tool_hoe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -398,27 +602,34 @@
   ],
   "language_map": {
     "en_us": {
+      "entity.porcosmod.gorgon": "Gorgon",
+      "item.porcosmod.porconium_tool_hoe": "PorconiumTool Hoe",
+      "entity.porcosmod.titi": "Titi",
+      "subtitles.titi.hit": "",
+      "item.porcosmod.porconium_sword": "Espada de porconium",
+      "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+      "item_group.porcosmod.porcos_mod": "Porcos Mod",
+      "item.porcosmod.porconium_tool_sword": "PorconiumTool Sword",
+      "item.porcosmod.porconium": "Porconium",
+      "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
-      "entity.porcosmod.gorgon": "Gorgon",
       "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
-      "subtitles.titi.hit": "",
-      "entity.porcosmod.titi": "Titi",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
+      "item.porcosmod.porconium_tool_shovel": "PorconiumTool Shovel",
       "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
-      "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
-      "item_group.porcosmod.porcos_mod": "Porcos Mod",
-      "item.porcosmod.porconium": "Porconium",
-      "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porconium_tool_axe": "PorconiumTool Axe",
+      "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
       "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
-      "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
-      "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate"
+      "item.porcosmod.porconium_tool_pickaxe": "PorconiumTool Pickaxe"
     }
   },
   "foldersRoot": {
