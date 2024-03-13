@@ -32,6 +32,7 @@ public class PorcosmodModTabs {
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_PLATA.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_BRONCE.get());
 				tabData.accept(PorcosmodModBlocks.BLOQUE_DE_PORCONIUM.get().asItem());
+				tabData.accept(PorcosmodModItems.PORCONIUM_SWORD.get());
 			})
 
 					.build());
@@ -39,12 +40,23 @@ public class PorcosmodModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(PorcosmodModItems.PORCONIUM_TOOL_SWORD.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(PorcosmodModItems.RADAGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.TITI_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.IGRIS_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.GORGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.DEVIL_GIRL_SPAWN_EGG.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(PorcosmodModItems.PORCONIUM_TOOL_PICKAXE.get());
+			tabData.accept(PorcosmodModItems.PORCONIUM_TOOL_AXE.get());
+			tabData.accept(PorcosmodModItems.PORCONIUM_TOOL_SHOVEL.get());
+			tabData.accept(PorcosmodModItems.PORCONIUM_TOOL_HOE.get());
 		}
 	}
 }

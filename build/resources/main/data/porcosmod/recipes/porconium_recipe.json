@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "porcosmod:bloque_de_porconium"
+    }
+  ],
+  "result": {
+    "item": "porcosmod:porconium",
+    "count": 9
+  }
+}
