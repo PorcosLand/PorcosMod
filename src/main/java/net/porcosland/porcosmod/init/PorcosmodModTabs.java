@@ -28,6 +28,9 @@ public class PorcosmodModTabs {
 				tabData.accept(PorcosmodModItems.PORCARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(PorcosmodModItems.PORCARMOR_ARMOR_LEGGINGS.get());
 				tabData.accept(PorcosmodModItems.PORCARMOR_ARMOR_BOOTS.get());
+				tabData.accept(PorcosmodModItems.PORCOIN_DE_ORO.get());
+				tabData.accept(PorcosmodModItems.PORCOIN_DE_PLATA.get());
+				tabData.accept(PorcosmodModItems.PORCOIN_DE_BRONCE.get());
 			})
 
 					.build());

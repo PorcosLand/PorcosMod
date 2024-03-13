@@ -5,6 +5,9 @@
 package net.porcosland.porcosmod.init;
 
 import net.porcosland.porcosmod.item.PorconiumItem;
+import net.porcosland.porcosmod.item.PorcoinDePlataItem;
+import net.porcosland.porcosmod.item.PorcoinDeOroItem;
+import net.porcosland.porcosmod.item.PorcoinDeBronceItem;
 import net.porcosland.porcosmod.item.PorcarmorArmorItem;
 import net.porcosland.porcosmod.PorcosmodMod;
 
@@ -27,4 +30,7 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> IGRIS_SPAWN_EGG = REGISTRY.register("igris_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.IGRIS, -6750208, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> GORGON_SPAWN_EGG = REGISTRY.register("gorgon_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.GORGON, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DEVIL_GIRL_SPAWN_EGG = REGISTRY.register("devil_girl_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.DEVIL_GIRL, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> PORCOIN_DE_ORO = REGISTRY.register("porcoin_de_oro", () -> new PorcoinDeOroItem());
+	public static final RegistryObject<Item> PORCOIN_DE_PLATA = REGISTRY.register("porcoin_de_plata", () -> new PorcoinDePlataItem());
+	public static final RegistryObject<Item> PORCOIN_DE_BRONCE = REGISTRY.register("porcoin_de_bronce", () -> new PorcoinDeBronceItem());
 }

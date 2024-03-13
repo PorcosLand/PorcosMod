@@ -9,12 +9,15 @@
   "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
   "entity.porcosmod.igris": "Igris",
   "subtitles.titi.live": "",
+  "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
   "entity.porcosmod.radagon": "Radagon",
   "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
   "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+  "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
   "item_group.porcosmod.porcos_mod": "Porcos Mod",
   "item.porcosmod.porconium": "Porconium",
   "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+  "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
   "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
   "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate"
 }
