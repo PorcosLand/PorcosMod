@@ -334,6 +334,35 @@
           "src/main/resources/assets/porcosmod/models/item/porcoin_de_bronce.json"
         ]
       }
+    },
+    {
+      "name": "BloqueDePorconium",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloque_de_porconium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/blockstates/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/block/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/item/bloque_de_porconium.json",
+          "src/main/java/net/porcosland/porcosmod/block/BloqueDePorconiumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_block_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -415,6 +444,7 @@
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",
+      "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
       "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
       "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",

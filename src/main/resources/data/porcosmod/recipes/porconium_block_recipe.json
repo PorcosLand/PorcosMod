@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "porcosmod:porconium"
+    }
+  },
+  "result": {
+    "item": "porcosmod:bloque_de_porconium",
+    "count": 1
+  }
+}

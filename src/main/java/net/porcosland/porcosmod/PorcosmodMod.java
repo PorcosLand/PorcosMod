@@ -20,6 +20,7 @@ import net.porcosland.porcosmod.init.PorcosmodModTabs;
 import net.porcosland.porcosmod.init.PorcosmodModSounds;
 import net.porcosland.porcosmod.init.PorcosmodModItems;
 import net.porcosland.porcosmod.init.PorcosmodModEntities;
+import net.porcosland.porcosmod.init.PorcosmodModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -52,6 +53,7 @@ public class PorcosmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		PorcosmodModSounds.REGISTRY.register(bus);
+		PorcosmodModBlocks.REGISTRY.register(bus);
 
 		PorcosmodModItems.REGISTRY.register(bus);
 		PorcosmodModEntities.REGISTRY.register(bus);

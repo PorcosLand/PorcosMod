@@ -276,6 +276,80 @@
           "src/main/resources/assets/porcosmod/models/item/gorgon_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "DevilGirl",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_girl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/DevilGirlEntity.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/devil_girl_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/DevilGirlRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/devil_girl_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDeOro",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_oro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDeOroItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_oro.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDePlata",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_plata",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_plata.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDePlataItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDeBronce",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_bronce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDeBronceItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_bronce.json"
+        ]
+      }
+    },
+    {
+      "name": "BloqueDePorconium",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloque_de_porconium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/blockstates/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/block/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/item/bloque_de_porconium.json",
+          "src/main/java/net/porcosland/porcosmod/block/BloqueDePorconiumBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -340,20 +414,26 @@
   ],
   "language_map": {
     "en_us": {
-      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "entity.porcosmod.gorgon": "Gorgon",
+      "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "subtitles.titi.hit": "",
       "entity.porcosmod.titi": "Titi",
+      "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
       "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
+      "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+      "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",
+      "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
       "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate"
     }

@@ -31,6 +31,7 @@ public class PorcosmodModTabs {
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_ORO.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_PLATA.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_BRONCE.get());
+				tabData.accept(PorcosmodModBlocks.BLOQUE_DE_PORCONIUM.get().asItem());
 			})
 
 					.build());
