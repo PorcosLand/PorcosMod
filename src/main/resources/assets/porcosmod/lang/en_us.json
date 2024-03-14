@@ -1,12 +1,11 @@
 {
   "entity.porcosmod.gorgon": "Gorgon",
-  "item.porcosmod.porconium_tool_hoe": "PorconiumTool Hoe",
   "entity.porcosmod.titi": "Titi",
   "subtitles.titi.hit": "",
-  "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+  "item.porcosmod.porconium_axe": "Hacha de porconium",
   "item.porcosmod.porconium_sword": "Espada de porconium",
+  "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
   "item_group.porcosmod.porcos_mod": "Porcos Mod",
-  "item.porcosmod.porconium_tool_sword": "PorconiumTool Sword",
   "item.porcosmod.porconium": "Porconium",
   "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
   "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
@@ -16,15 +15,15 @@
   "entity.porcosmod.devil_girl": "Devil Girl",
   "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
   "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
-  "item.porcosmod.porconium_tool_shovel": "PorconiumTool Shovel",
   "entity.porcosmod.igris": "Igris",
   "subtitles.titi.live": "",
   "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
+  "item.porcosmod.porconium_shovel": "Pala de porconium",
   "entity.porcosmod.radagon": "Radagon",
   "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
   "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
-  "item.porcosmod.porconium_tool_axe": "PorconiumTool Axe",
+  "item.porcosmod.porconium_hoe": "Hazada de porconium",
   "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
   "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
-  "item.porcosmod.porconium_tool_pickaxe": "PorconiumTool Pickaxe"
+  "item.porcosmod.porconium_pickaxe": "Pico de porconium"
 }

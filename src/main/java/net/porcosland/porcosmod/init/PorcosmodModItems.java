@@ -4,13 +4,12 @@
  */
 package net.porcosland.porcosmod.init;
 
-import net.porcosland.porcosmod.item.PorconiumToolSwordItem;
-import net.porcosland.porcosmod.item.PorconiumToolShovelItem;
-import net.porcosland.porcosmod.item.PorconiumToolPickaxeItem;
-import net.porcosland.porcosmod.item.PorconiumToolHoeItem;
-import net.porcosland.porcosmod.item.PorconiumToolAxeItem;
 import net.porcosland.porcosmod.item.PorconiumSwordItem;
+import net.porcosland.porcosmod.item.PorconiumShovelItem;
+import net.porcosland.porcosmod.item.PorconiumPickaxeItem;
 import net.porcosland.porcosmod.item.PorconiumItem;
+import net.porcosland.porcosmod.item.PorconiumHoeItem;
+import net.porcosland.porcosmod.item.PorconiumAxeItem;
 import net.porcosland.porcosmod.item.PorcoinDePlataItem;
 import net.porcosland.porcosmod.item.PorcoinDeOroItem;
 import net.porcosland.porcosmod.item.PorcoinDeBronceItem;
@@ -43,11 +42,10 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> PORCOIN_DE_BRONCE = REGISTRY.register("porcoin_de_bronce", () -> new PorcoinDeBronceItem());
 	public static final RegistryObject<Item> BLOQUE_DE_PORCONIUM = block(PorcosmodModBlocks.BLOQUE_DE_PORCONIUM);
 	public static final RegistryObject<Item> PORCONIUM_SWORD = REGISTRY.register("porconium_sword", () -> new PorconiumSwordItem());
-	public static final RegistryObject<Item> PORCONIUM_TOOL_PICKAXE = REGISTRY.register("porconium_tool_pickaxe", () -> new PorconiumToolPickaxeItem());
-	public static final RegistryObject<Item> PORCONIUM_TOOL_AXE = REGISTRY.register("porconium_tool_axe", () -> new PorconiumToolAxeItem());
-	public static final RegistryObject<Item> PORCONIUM_TOOL_SWORD = REGISTRY.register("porconium_tool_sword", () -> new PorconiumToolSwordItem());
-	public static final RegistryObject<Item> PORCONIUM_TOOL_SHOVEL = REGISTRY.register("porconium_tool_shovel", () -> new PorconiumToolShovelItem());
-	public static final RegistryObject<Item> PORCONIUM_TOOL_HOE = REGISTRY.register("porconium_tool_hoe", () -> new PorconiumToolHoeItem());
+	public static final RegistryObject<Item> PORCONIUM_PICKAXE = REGISTRY.register("porconium_pickaxe", () -> new PorconiumPickaxeItem());
+	public static final RegistryObject<Item> PORCONIUM_SHOVEL = REGISTRY.register("porconium_shovel", () -> new PorconiumShovelItem());
+	public static final RegistryObject<Item> PORCONIUM_AXE = REGISTRY.register("porconium_axe", () -> new PorconiumAxeItem());
+	public static final RegistryObject<Item> PORCONIUM_HOE = REGISTRY.register("porconium_hoe", () -> new PorconiumHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

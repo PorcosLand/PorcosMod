@@ -1,0 +1,588 @@
+{
+  "mod_elements": [
+    {
+      "name": "RadagonAlMorir",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_al_morir",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonAlMorirProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Radagon",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/RadagonEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/RadagonRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/radagon_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Porconium",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcarmorArmorItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_helmet.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_chestplate.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_leggings.json",
+          "src/main/resources/assets/porcosmod/models/item/porcarmor_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcarmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porcarmor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Titi",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/titi_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/titi_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/TitiRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/TitiEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RadagonItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RadagonOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radagon_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/RadagonOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PorcosMod",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcos_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Igris",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/IgrisEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/IgrisRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/igris_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "IgrisEntityDies",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IgrisOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IgrisItIsStruckByLightning",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igris_it_is_struck_by_lightning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/procedures/IgrisItIsStruckByLightningProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gorgon",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gorgon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/client/renderer/GorgonRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/GorgonEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/gorgon_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "DevilGirl",
+      "type": "livingentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_girl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/DevilGirlEntity.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/devil_girl_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/DevilGirlRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/devil_girl_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDeOro",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_oro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDeOroItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_oro.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDePlata",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_plata",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_plata.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDePlataItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorcoinDeBronce",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcoin_de_bronce",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorcoinDeBronceItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porcoin_de_bronce.json"
+        ]
+      }
+    },
+    {
+      "name": "BloqueDePorconium",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloque_de_porconium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/blockstates/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/block/bloque_de_porconium.json",
+          "src/main/resources/assets/porcosmod/models/item/bloque_de_porconium.json",
+          "src/main/java/net/porcosland/porcosmod/block/BloqueDePorconiumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_sword.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumPickaxeItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumShovel",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumShovelItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/recipes/porconium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorconiumAxe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_axe.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumAxeItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "setXRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setYRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setZRadagon",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setXIgris",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setYIgris",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "setZIgris",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "titi.live",
+      "files": [
+        "doit",
+        "titidu",
+        "titiname",
+        "uglygly"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "titi.hit",
+      "files": [
+        "titihit",
+        "titihit2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.porcosmod.gorgon": "Gorgon",
+      "entity.porcosmod.titi": "Titi",
+      "subtitles.titi.hit": "",
+      "item.porcosmod.porconium_axe": "Hacha de porconium",
+      "item.porcosmod.porconium_sword": "Espada de porconium",
+      "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
+      "item_group.porcosmod.porcos_mod": "Porcos Mod",
+      "item.porcosmod.porconium": "Porconium",
+      "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
+      "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
+      "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
+      "entity.porcosmod.devil_girl": "Devil Girl",
+      "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
+      "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
+      "entity.porcosmod.igris": "Igris",
+      "subtitles.titi.live": "",
+      "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
+      "item.porcosmod.porconium_shovel": "Pala de porconium",
+      "entity.porcosmod.radagon": "Radagon",
+      "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
+      "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
+      "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
+      "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
+      "item.porcosmod.porconium_pickaxe": "Pico de porconium"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "porcosmod",
+    "modName": "PorcosMod",
+    "version": "1.0.0",
+    "author": "Yaler, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.porcosland.porcosmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

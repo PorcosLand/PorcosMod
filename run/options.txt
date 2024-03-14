@@ -32,12 +32,12 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
 renderDistance:10
-simulationDistance:32
+simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
 maxFps:260
-graphicsMode:0
+graphicsMode:2
 ao:false
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
