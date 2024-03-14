@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "iron_sword",
-    "customModelName": "Normal",
+    "customModelName": "porconium_sword:default",
     "blockingModelName": "Normal blocking",
     "name": "Espada de porconium",
     "specialInformation": {

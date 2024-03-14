@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "porconiumhoee",
-    "customModelName": "Normal",
+    "customModelName": "porconium_hoe:default",
     "blockingModelName": "Normal blocking",
     "name": "Hazada de porconium",
     "specialInformation": {

@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "porcosmod:custom/porconium_hoe",
   "textures": {
-    "layer0": "porcosmod:item/porconiumhoee"
+    "0": "porcosmod:block/porconium_hoe",
+    "particle": "porcosmod:item/porconiumhoee"
   }
 }

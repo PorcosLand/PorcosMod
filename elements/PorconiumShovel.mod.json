@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Spade",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "porconiumshovel",
-    "customModelName": "Normal",
+    "customModelName": "porconium_shovel:default",
     "blockingModelName": "Normal blocking",
     "name": "Pala de porconium",
     "specialInformation": {

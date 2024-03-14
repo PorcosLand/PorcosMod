@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "porconiumaxe",
-    "customModelName": "Normal",
+    "customModelName": "porconium_axe:default",
     "blockingModelName": "Normal blocking",
     "name": "Hacha de porconium",
     "specialInformation": {

@@ -29,16 +29,16 @@ public class PorcosmodModTabs {
 				tabData.accept(PorcosmodModItems.PORCARMOR_ARMOR_LEGGINGS.get());
 				tabData.accept(PorcosmodModItems.PORCARMOR_ARMOR_BOOTS.get());
 				tabData.accept(PorcosmodModItems.PORCONIUM_SWORD.get());
-				tabData.accept(PorcosmodModItems.PORCONIUM_PICKAXE.get());
-				tabData.accept(PorcosmodModItems.PORCONIUM_SHOVEL.get());
-				tabData.accept(PorcosmodModItems.PORCONIUM_AXE.get());
-				tabData.accept(PorcosmodModItems.PORCONIUM_HOE.get());
 				tabData.accept(PorcosmodModBlocks.BLOQUE_DE_PORCONIUM.get().asItem());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_ORO.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_PLATA.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_BRONCE.get());
 				tabData.accept(PorcosmodModItems.PORCOIN_DE_DIAMANTE.get());
 				tabData.accept(PorcosmodModItems.EPIC_BATTLE_MUSIC.get());
+				tabData.accept(PorcosmodModItems.PORCONIUM_PICKAXE.get());
+				tabData.accept(PorcosmodModItems.PORCONIUM_SHOVEL.get());
+				tabData.accept(PorcosmodModItems.PORCONIUM_AXE.get());
+				tabData.accept(PorcosmodModItems.PORCONIUM_HOE.get());
 			})
 
 					.build());

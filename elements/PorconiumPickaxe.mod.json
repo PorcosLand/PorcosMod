@@ -3,10 +3,10 @@
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
-    "renderType": 0,
+    "renderType": 1,
     "blockingRenderType": 0,
     "texture": "porconiumpickaxe",
-    "customModelName": "Normal",
+    "customModelName": "porconium_pickaxe:default",
     "blockingModelName": "Normal blocking",
     "name": "Pico de porconium",
     "specialInformation": {
@@ -17,7 +17,7 @@
     },
     "harvestLevel": 1,
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.7999999999999999,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 100,

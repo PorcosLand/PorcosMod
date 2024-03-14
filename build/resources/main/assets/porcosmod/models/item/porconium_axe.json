@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "porcosmod:custom/porconium_axe",
   "textures": {
-    "layer0": "porcosmod:item/porconiumaxe"
+    "0": "porcosmod:block/porconium_axe",
+    "particle": "porcosmod:item/porconiumaxe"
   }
 }

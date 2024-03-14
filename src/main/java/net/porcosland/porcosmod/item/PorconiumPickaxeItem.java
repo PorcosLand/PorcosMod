@@ -38,7 +38,7 @@ public class PorconiumPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3.2f, new Item.Properties());
 	}
 
 	@Override
