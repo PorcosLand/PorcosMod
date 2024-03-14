@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "porcosmod:block/porconiumblock",
-    "particle": "porcosmod:block/porconiumblock"
+    "all": "porcosmod:block/porconium_block",
+    "particle": "porcosmod:block/porconium_block"
   },
   "render_type": "cutout_mipped"
 }

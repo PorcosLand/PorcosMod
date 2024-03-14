@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "porconium",
+    "texture": "porconium_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

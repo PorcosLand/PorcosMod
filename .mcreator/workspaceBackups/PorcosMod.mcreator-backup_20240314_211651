@@ -430,21 +430,6 @@
       "path": "~/Porconium"
     },
     {
-      "name": "PorconiumPickaxe",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "porconium_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/porcosland/porcosmod/item/PorconiumPickaxeItem.java",
-          "src/main/resources/assets/porcosmod/models/item/porconium_pickaxe.json"
-        ]
-      },
-      "path": "~/Porconium"
-    },
-    {
       "name": "PorconiumPickaxeRecipe",
       "type": "recipe",
       "sortid": 33,
@@ -454,21 +439,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/porcosmod/recipes/porconium_pickaxe_recipe.json"
-        ]
-      },
-      "path": "~/Porconium"
-    },
-    {
-      "name": "PorconiumShovel",
-      "type": "tool",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "porconium_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/porcosland/porcosmod/item/PorconiumShovelItem.java",
-          "src/main/resources/assets/porcosmod/models/item/porconium_shovel.json"
         ]
       },
       "path": "~/Porconium"
@@ -488,21 +458,6 @@
       "path": "~/Porconium"
     },
     {
-      "name": "PorconiumAxe",
-      "type": "tool",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "porconium_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/porcosmod/models/item/porconium_axe.json",
-          "src/main/java/net/porcosland/porcosmod/item/PorconiumAxeItem.java"
-        ]
-      },
-      "path": "~/Porconium"
-    },
-    {
       "name": "PorconiumAxeRecipe",
       "type": "recipe",
       "sortid": 35,
@@ -512,21 +467,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/porcosmod/recipes/porconium_axe_recipe.json"
-        ]
-      },
-      "path": "~/Porconium"
-    },
-    {
-      "name": "PorconiumHoe",
-      "type": "tool",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "porconium_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/porcosmod/models/item/porconium_hoe.json",
-          "src/main/java/net/porcosland/porcosmod/item/PorconiumHoeItem.java"
         ]
       },
       "path": "~/Porconium"
@@ -586,6 +526,66 @@
         ]
       },
       "path": "~/Coins"
+    },
+    {
+      "name": "PorconiumPickaxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumPickaxeItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_pickaxe.json"
+        ]
+      },
+      "path": "~/Porconium"
+    },
+    {
+      "name": "PorconiumShovel",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumShovelItem.java",
+          "src/main/resources/assets/porcosmod/models/item/porconium_shovel.json"
+        ]
+      },
+      "path": "~/Porconium"
+    },
+    {
+      "name": "PorconiumAxe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_axe.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumAxeItem.java"
+        ]
+      },
+      "path": "~/Porconium"
+    },
+    {
+      "name": "PorconiumHoe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porconium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/porconium_hoe.json",
+          "src/main/java/net/porcosland/porcosmod/item/PorconiumHoeItem.java"
+        ]
+      },
+      "path": "~/Porconium"
     }
   ],
   "variable_elements": [
@@ -680,8 +680,8 @@
       "entity.porcosmod.igris": "Igris",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
-      "item.porcosmod.porconium_shovel": "Pala de porconium",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",
+      "item.porcosmod.porconium_shovel": "Pala de porconium",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
