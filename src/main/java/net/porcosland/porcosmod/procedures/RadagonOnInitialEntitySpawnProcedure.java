@@ -9,6 +9,7 @@ public class RadagonOnInitialEntitySpawnProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
+		double infinite = 0;
 		PorcosmodModVariables.MapVariables.get(world).setXRadagon = entity.getX();
 		PorcosmodModVariables.MapVariables.get(world).syncData(world);
 		PorcosmodModVariables.MapVariables.get(world).setYRadagon = entity.getY();

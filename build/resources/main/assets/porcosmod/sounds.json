@@ -30,5 +30,13 @@
         "stream": false
       }
     ]
+  },
+  "epicbattlemusic": {
+    "sounds": [
+      {
+        "name": "porcosmod:epic_battle_music",
+        "stream": true
+      }
+    ]
   }
 }

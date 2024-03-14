@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "porcosmod:item/plateporcoin"
+    "layer0": "porcosmod:item/iron_porcocoin"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Epic Battle Music",
+    "rarity": "EPIC",
+    "texture": "music_disc_pigstep",
+    "description": "Musica epica de batalla",
+    "creativeTab": {
+      "value": "CUSTOM:PorcosMod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:epicbattlemusic"
+    },
+    "lengthInTicks": 4840,
+    "analogOutput": 0
+  }
+}

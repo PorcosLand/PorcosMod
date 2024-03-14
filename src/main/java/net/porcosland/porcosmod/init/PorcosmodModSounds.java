@@ -17,4 +17,5 @@ public class PorcosmodModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, PorcosmodMod.MODID);
 	public static final RegistryObject<SoundEvent> TITI_LIVE = REGISTRY.register("titi.live", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("porcosmod", "titi.live")));
 	public static final RegistryObject<SoundEvent> TITI_HIT = REGISTRY.register("titi.hit", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("porcosmod", "titi.hit")));
+	public static final RegistryObject<SoundEvent> EPICBATTLEMUSIC = REGISTRY.register("epicbattlemusic", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("porcosmod", "epicbattlemusic")));
 }
