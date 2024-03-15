@@ -10,6 +10,7 @@ import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
+import net.porcosland.porcosmod.entity.BatmonsterEntity;
 import net.porcosland.porcosmod.PorcosmodMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -51,6 +52,10 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<NecromancerEntity>of(NecromancerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NecromancerEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BatmonsterEntity>> BATMONSTER = register("batmonster",
+			EntityType.Builder.<BatmonsterEntity>of(BatmonsterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BatmonsterEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -65,6 +70,7 @@ public class PorcosmodModEntities {
 			GorgonEntity.init();
 			DevilGirlEntity.init();
 			NecromancerEntity.init();
+			BatmonsterEntity.init();
 		});
 	}
 
@@ -76,5 +82,6 @@ public class PorcosmodModEntities {
 		event.put(GORGON.get(), GorgonEntity.createAttributes().build());
 		event.put(DEVIL_GIRL.get(), DevilGirlEntity.createAttributes().build());
 		event.put(NIGROMANTE.get(), NecromancerEntity.createAttributes().build());
+		event.put(BATMONSTER.get(), BatmonsterEntity.createAttributes().build());
 	}
 }

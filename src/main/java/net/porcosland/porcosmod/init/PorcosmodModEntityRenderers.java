@@ -10,6 +10,7 @@ import net.porcosland.porcosmod.client.renderer.NecromancerRenderer;
 import net.porcosland.porcosmod.client.renderer.IgrisRenderer;
 import net.porcosland.porcosmod.client.renderer.GorgonRenderer;
 import net.porcosland.porcosmod.client.renderer.DevilGirlRenderer;
+import net.porcosland.porcosmod.client.renderer.BatmonsterRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -26,5 +27,6 @@ public class PorcosmodModEntityRenderers {
 		event.registerEntityRenderer(PorcosmodModEntities.GORGON.get(), GorgonRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.DEVIL_GIRL.get(), DevilGirlRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.NIGROMANTE.get(), NecromancerRenderer::new);
+		event.registerEntityRenderer(PorcosmodModEntities.BATMONSTER.get(), BatmonsterRenderer::new);
 	}
 }

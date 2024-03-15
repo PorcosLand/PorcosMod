@@ -13,6 +13,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -598,6 +610,23 @@
         ]
       },
       "path": "~/Porconium"
+    },
+    {
+      "name": "Necromancer",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nigromante",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/nigromante_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/nigromante_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/NecromancerEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/NecromancerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -675,6 +704,7 @@
       "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
       "item.porcosmod.porconium_axe": "Hacha de porconium",
+      "entity.porcosmod.nigromante": "Nigromante",
       "item.porcosmod.porconium_sword": "Espada de porconium",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
@@ -684,6 +714,7 @@
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "subtitles.epicbattlemusic": "",
+      "item.porcosmod.nigromante_spawn_egg": "Nigromante Spawn Egg",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "entity.porcosmod.devil_girl": "Devil Girl",

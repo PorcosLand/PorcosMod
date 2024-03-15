@@ -627,6 +627,23 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Batmonster",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batmonster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/forge/biome_modifier/batmonster_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/BatmonsterEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/batmonster_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/BatmonsterRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -704,6 +721,7 @@
       "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
       "item.porcosmod.porconium_axe": "Hacha de porconium",
+      "item.porcosmod.batmonster_spawn_egg": "Batmonster Spawn Egg",
       "entity.porcosmod.nigromante": "Nigromante",
       "item.porcosmod.porconium_sword": "Espada de porconium",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
@@ -721,6 +739,7 @@
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
       "entity.porcosmod.igris": "Igris",
+      "entity.porcosmod.batmonster": "Batmonster",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",

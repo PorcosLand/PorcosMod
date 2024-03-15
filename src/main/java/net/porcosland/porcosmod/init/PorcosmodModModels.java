@@ -9,6 +9,7 @@ import net.porcosland.porcosmod.client.model.ModelNigromante;
 import net.porcosland.porcosmod.client.model.ModelIgris;
 import net.porcosland.porcosmod.client.model.ModelGorgon;
 import net.porcosland.porcosmod.client.model.ModelDEvilGirl;
+import net.porcosland.porcosmod.client.model.ModelBatmonster;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -23,6 +24,7 @@ public class PorcosmodModModels {
 		event.registerLayerDefinition(ModelGorgon.LAYER_LOCATION, ModelGorgon::createBodyLayer);
 		event.registerLayerDefinition(ModelNigromante.LAYER_LOCATION, ModelNigromante::createBodyLayer);
 		event.registerLayerDefinition(ModelDEvilGirl.LAYER_LOCATION, ModelDEvilGirl::createBodyLayer);
+		event.registerLayerDefinition(ModelBatmonster.LAYER_LOCATION, ModelBatmonster::createBodyLayer);
 		event.registerLayerDefinition(ModelTiti.LAYER_LOCATION, ModelTiti::createBodyLayer);
 	}
 }
