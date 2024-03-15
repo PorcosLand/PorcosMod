@@ -17,7 +17,7 @@
 
 ## Items
 
-![App Screenshot](https://i.imgur.com/I9ZPy9b.png)
+![App Screenshot](https://i.imgur.com/xjRXjKS.png)
 
 ## Devil Girl
 
@@ -34,3 +34,11 @@
 ## Radagon
 
 ![App Screenshot](https://i.imgur.com/ksyj76l.png)
+
+## Titi
+
+![App Screenshot](https://i.imgur.com/paclrcK.png)
+
+## Nigromante
+
+![App Screenshot](https://i.imgur.com/v5777SH.png)
