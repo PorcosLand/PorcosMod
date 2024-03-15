@@ -6,6 +6,7 @@ package net.porcosland.porcosmod.init;
 
 import net.porcosland.porcosmod.entity.TitiEntity;
 import net.porcosland.porcosmod.entity.RadagonEntity;
+import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
@@ -46,6 +47,10 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<DevilGirlEntity>of(DevilGirlEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DevilGirlEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NecromancerEntity>> NIGROMANTE = register("nigromante",
+			EntityType.Builder.<NecromancerEntity>of(NecromancerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NecromancerEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -59,6 +64,7 @@ public class PorcosmodModEntities {
 			IgrisEntity.init();
 			GorgonEntity.init();
 			DevilGirlEntity.init();
+			NecromancerEntity.init();
 		});
 	}
 
@@ -69,5 +75,6 @@ public class PorcosmodModEntities {
 		event.put(IGRIS.get(), IgrisEntity.createAttributes().build());
 		event.put(GORGON.get(), GorgonEntity.createAttributes().build());
 		event.put(DEVIL_GIRL.get(), DevilGirlEntity.createAttributes().build());
+		event.put(NIGROMANTE.get(), NecromancerEntity.createAttributes().build());
 	}
 }

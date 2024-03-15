@@ -13,6 +13,18 @@
         ],
         "dependencies": [
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -177,6 +189,18 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
           },
           {
             "name": "world",
@@ -586,6 +610,23 @@
         ]
       },
       "path": "~/Porconium"
+    },
+    {
+      "name": "Necromancer",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necromancer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/NecromancerEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/NecromancerRenderer.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/necromancer_biome_modifier.json",
+          "src/main/resources/assets/porcosmod/models/item/necromancer_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -677,7 +718,9 @@
       "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
+      "item.porcosmod.necromancer_spawn_egg": "Nigromante Spawn Egg",
       "entity.porcosmod.igris": "Igris",
+      "entity.porcosmod.necromancer": "Nigromante",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",

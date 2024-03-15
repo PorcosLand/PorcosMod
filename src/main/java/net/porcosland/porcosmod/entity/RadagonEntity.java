@@ -119,13 +119,13 @@ public class RadagonEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		RadagonAlMorirProcedure.execute(this.level());
+		RadagonAlMorirProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
-		RadagonOnInitialEntitySpawnProcedure.execute(world, this);
+		RadagonOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ(), this);
 		return retval;
 	}
 

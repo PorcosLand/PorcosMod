@@ -50,6 +50,7 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> PORCONIUM_SHOVEL = REGISTRY.register("porconium_shovel", () -> new PorconiumShovelItem());
 	public static final RegistryObject<Item> PORCONIUM_AXE = REGISTRY.register("porconium_axe", () -> new PorconiumAxeItem());
 	public static final RegistryObject<Item> PORCONIUM_HOE = REGISTRY.register("porconium_hoe", () -> new PorconiumHoeItem());
+	public static final RegistryObject<Item> NIGROMANTE_SPAWN_EGG = REGISTRY.register("nigromante_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.NIGROMANTE, -4684485, -2050572, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
