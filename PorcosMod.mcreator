@@ -644,6 +644,23 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Cadaveres",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cadaveres",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/CadaveresEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/cadaveres_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/cadaveres_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/CadaveresRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -730,6 +747,7 @@
       "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
       "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.cadaveres_spawn_egg": "Cadaveres Spawn Egg",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "subtitles.epicbattlemusic": "",
       "item.porcosmod.nigromante_spawn_egg": "Nigromante Spawn Egg",
@@ -746,6 +764,7 @@
       "item.porcosmod.porconium_shovel": "Pala de porconium",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
+      "entity.porcosmod.cadaveres": "Cadaveres",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "item.porcosmod.porconium_hoe": "Hazada de porconium",
       "block.porcosmod.bloque_de_porconium": "Bloque de porconium",

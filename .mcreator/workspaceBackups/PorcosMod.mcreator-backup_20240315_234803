@@ -610,6 +610,40 @@
         ]
       },
       "path": "~/Porconium"
+    },
+    {
+      "name": "Necromancer",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nigromante",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/nigromante_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/nigromante_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/NecromancerEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/NecromancerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Batmonster",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batmonster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/forge/biome_modifier/batmonster_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/BatmonsterEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/batmonster_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/BatmonsterRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -687,6 +721,8 @@
       "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
       "item.porcosmod.porconium_axe": "Hacha de porconium",
+      "item.porcosmod.batmonster_spawn_egg": "Batmonster Spawn Egg",
+      "entity.porcosmod.nigromante": "Nigromante",
       "item.porcosmod.porconium_sword": "Espada de porconium",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
@@ -696,12 +732,14 @@
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "subtitles.epicbattlemusic": "",
+      "item.porcosmod.nigromante_spawn_egg": "Nigromante Spawn Egg",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
       "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
       "entity.porcosmod.igris": "Igris",
+      "entity.porcosmod.batmonster": "Batmonster",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",
