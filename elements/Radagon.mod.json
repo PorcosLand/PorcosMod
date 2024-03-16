@@ -5,7 +5,7 @@
     "mobName": "Radagon",
     "mobLabel": "Radagon de la Orden Dorada",
     "mobModelName": "Biped",
-    "mobModelTexture": "radagon.png",
+    "mobModelTexture": "radagon2.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -21,15 +21,9 @@
     "boundingBoxScale": {
       "fixedValue": 1.0
     },
-    "modelLayers": [
-      {
-        "model": "Default",
-        "texture": "radagon.png",
-        "glow": false
-      }
-    ],
-    "modelWidth": 1.0,
-    "modelHeight": 2.9,
+    "modelLayers": [],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
     "modelShadowSize": 1.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,

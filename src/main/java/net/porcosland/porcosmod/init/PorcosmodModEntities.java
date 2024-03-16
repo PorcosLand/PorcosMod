@@ -32,7 +32,7 @@ public class PorcosmodModEntities {
 	public static final RegistryObject<EntityType<RadagonEntity>> RADAGON = register("radagon",
 			EntityType.Builder.<RadagonEntity>of(RadagonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(RadagonEntity::new)
 
-					.sized(1f, 2.9f));
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TitiEntity>> TITI = register("titi",
 			EntityType.Builder.<TitiEntity>of(TitiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TitiEntity::new)
 
