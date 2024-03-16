@@ -4,7 +4,7 @@
     "type": "forge:any"
   },
   "spawners": {
-    "type": "porcosmod:cadaveres",
+    "type": "porcosmod:granpapo",
     "weight": 20,
     "minCount": 4,
     "maxCount": 4

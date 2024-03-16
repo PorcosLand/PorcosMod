@@ -8,11 +8,12 @@ import net.porcosland.porcosmod.entity.TitiEntity;
 import net.porcosland.porcosmod.entity.RadagonEntity;
 import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
+import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
 import net.porcosland.porcosmod.entity.DevoradorEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
-import net.porcosland.porcosmod.entity.CadaveresEntity;
+import net.porcosland.porcosmod.entity.CorpsesEntity;
 import net.porcosland.porcosmod.entity.BatMonsterEntity;
 import net.porcosland.porcosmod.PorcosmodMod;
 
@@ -55,10 +56,6 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<NecromancerEntity>of(NecromancerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NecromancerEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<CadaveresEntity>> CADAVERES = register("cadaveres",
-			EntityType.Builder.<CadaveresEntity>of(CadaveresEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CadaveresEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DevoradorEntity>> DEVORADOR = register("devorador",
 			EntityType.Builder.<DevoradorEntity>of(DevoradorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DevoradorEntity::new)
 
@@ -69,6 +66,14 @@ public class PorcosmodModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BatMonsterEntity>> BAT_MONSTER = register("bat_monster",
 			EntityType.Builder.<BatMonsterEntity>of(BatMonsterEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BatMonsterEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CorpsesEntity>> CORPSES = register("corpses",
+			EntityType.Builder.<CorpsesEntity>of(CorpsesEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CorpsesEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GranpapoEntity>> GRANPAPO = register("granpapo",
+			EntityType.Builder.<GranpapoEntity>of(GranpapoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GranpapoEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -85,10 +90,11 @@ public class PorcosmodModEntities {
 			GorgonEntity.init();
 			DevilGirlEntity.init();
 			NecromancerEntity.init();
-			CadaveresEntity.init();
 			DevoradorEntity.init();
 			EspectatorEntity.init();
 			BatMonsterEntity.init();
+			CorpsesEntity.init();
+			GranpapoEntity.init();
 		});
 	}
 
@@ -100,9 +106,10 @@ public class PorcosmodModEntities {
 		event.put(GORGON.get(), GorgonEntity.createAttributes().build());
 		event.put(DEVIL_GIRL.get(), DevilGirlEntity.createAttributes().build());
 		event.put(NIGROMANTE.get(), NecromancerEntity.createAttributes().build());
-		event.put(CADAVERES.get(), CadaveresEntity.createAttributes().build());
 		event.put(DEVORADOR.get(), DevoradorEntity.createAttributes().build());
 		event.put(ESPECTATOR.get(), EspectatorEntity.createAttributes().build());
 		event.put(BAT_MONSTER.get(), BatMonsterEntity.createAttributes().build());
+		event.put(CORPSES.get(), CorpsesEntity.createAttributes().build());
+		event.put(GRANPAPO.get(), GranpapoEntity.createAttributes().build());
 	}
 }

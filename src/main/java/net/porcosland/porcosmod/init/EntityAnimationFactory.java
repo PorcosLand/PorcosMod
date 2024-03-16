@@ -1,6 +1,8 @@
 package net.porcosland.porcosmod.init;
 
+import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
+import net.porcosland.porcosmod.entity.CorpsesEntity;
 import net.porcosland.porcosmod.entity.BatMonsterEntity;
 
 import net.minecraftforge.fml.common.Mod;
@@ -20,6 +22,20 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof BatMonsterEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof CorpsesEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof GranpapoEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
