@@ -629,18 +629,53 @@
       "path": "~/Mobs"
     },
     {
-      "name": "Batmonster",
+      "name": "Cadaveres",
       "type": "livingentity",
-      "sortid": 43,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "batmonster",
+      "registry_name": "cadaveres",
       "metadata": {
         "files": [
-          "src/main/resources/data/porcosmod/forge/biome_modifier/batmonster_biome_modifier.json",
-          "src/main/java/net/porcosland/porcosmod/entity/BatmonsterEntity.java",
-          "src/main/resources/assets/porcosmod/models/item/batmonster_spawn_egg.json",
-          "src/main/java/net/porcosland/porcosmod/client/renderer/BatmonsterRenderer.java"
+          "src/main/java/net/porcosland/porcosmod/entity/CadaveresEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/cadaveres_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/cadaveres_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/CadaveresRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Devorador",
+      "type": "livingentity",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devorador",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/devorador_spawn_egg.json",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/devorador_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/DevoradorEntity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/DevoradorRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Espectator",
+      "type": "animatedentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "espectator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/EspectatorEntity.java",
+          "src/main/java/net/porcosland/porcosmod/entity/model/EspectatorModel.java",
+          "src/main/resources/assets/porcosmod/models/item/espectator_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/EspectatorRenderer.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/espectator_biome_modifier.json"
         ]
       },
       "path": "~/Mobs"
@@ -721,15 +756,16 @@
       "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
       "item.porcosmod.porconium_axe": "Hacha de porconium",
-      "item.porcosmod.batmonster_spawn_egg": "Batmonster Spawn Egg",
       "entity.porcosmod.nigromante": "Nigromante",
       "item.porcosmod.porconium_sword": "Espada de porconium",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",
+      "entity.porcosmod.espectator": "Espectator",
       "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
       "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
+      "item.porcosmod.cadaveres_spawn_egg": "Cadaveres Spawn Egg",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "subtitles.epicbattlemusic": "",
       "item.porcosmod.nigromante_spawn_egg": "Nigromante Spawn Egg",
@@ -738,19 +774,22 @@
       "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
+      "item.porcosmod.devorador_spawn_egg": "Devorador Spawn Egg",
       "entity.porcosmod.igris": "Igris",
-      "entity.porcosmod.batmonster": "Batmonster",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",
       "item.porcosmod.porconium_shovel": "Pala de porconium",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
+      "entity.porcosmod.cadaveres": "Cadaveres",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "item.porcosmod.porconium_hoe": "Hazada de porconium",
       "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
       "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
-      "item.porcosmod.porconium_pickaxe": "Pico de porconium"
+      "entity.porcosmod.devorador": "Devorador",
+      "item.porcosmod.porconium_pickaxe": "Pico de porconium",
+      "item.porcosmod.espectator_spawn_egg": "Espectator Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -782,8 +821,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.porcosland.porcosmod",
     "lockBaseModFiles": false
   },

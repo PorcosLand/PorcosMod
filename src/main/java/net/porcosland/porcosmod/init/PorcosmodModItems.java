@@ -51,9 +51,10 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> PORCONIUM_AXE = REGISTRY.register("porconium_axe", () -> new PorconiumAxeItem());
 	public static final RegistryObject<Item> PORCONIUM_HOE = REGISTRY.register("porconium_hoe", () -> new PorconiumHoeItem());
 	public static final RegistryObject<Item> NIGROMANTE_SPAWN_EGG = REGISTRY.register("nigromante_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.NIGROMANTE, -4684485, -2050572, new Item.Properties()));
-	public static final RegistryObject<Item> BATMONSTER_SPAWN_EGG = REGISTRY.register("batmonster_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.BATMONSTER, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> CADAVERES_SPAWN_EGG = REGISTRY.register("cadaveres_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.CADAVERES, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> DEVORADOR_SPAWN_EGG = REGISTRY.register("devorador_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.DEVORADOR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ESPECTATOR_SPAWN_EGG = REGISTRY.register("espectator_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.ESPECTATOR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> BAT_MONSTER_SPAWN_EGG = REGISTRY.register("bat_monster_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.BAT_MONSTER, -8229881, -65536, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

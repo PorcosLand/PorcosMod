@@ -53,9 +53,10 @@ public class PorcosmodModTabs {
 			tabData.accept(PorcosmodModItems.GORGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.DEVIL_GIRL_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.NIGROMANTE_SPAWN_EGG.get());
-			tabData.accept(PorcosmodModItems.BATMONSTER_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.CADAVERES_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.DEVORADOR_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.ESPECTATOR_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.BAT_MONSTER_SPAWN_EGG.get());
 		}
 	}
 }
