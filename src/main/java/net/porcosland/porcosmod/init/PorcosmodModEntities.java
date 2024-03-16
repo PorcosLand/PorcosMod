@@ -11,7 +11,6 @@ import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
-import net.porcosland.porcosmod.entity.DevoradorEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
 import net.porcosland.porcosmod.entity.CorpsesEntity;
 import net.porcosland.porcosmod.entity.BatMonsterEntity;
@@ -56,10 +55,6 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<NecromancerEntity>of(NecromancerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(NecromancerEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<DevoradorEntity>> DEVORADOR = register("devorador",
-			EntityType.Builder.<DevoradorEntity>of(DevoradorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DevoradorEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<EspectatorEntity>> ESPECTATOR = register("espectator",
 			EntityType.Builder.<EspectatorEntity>of(EspectatorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EspectatorEntity::new)
 
@@ -90,7 +85,6 @@ public class PorcosmodModEntities {
 			GorgonEntity.init();
 			DevilGirlEntity.init();
 			NecromancerEntity.init();
-			DevoradorEntity.init();
 			EspectatorEntity.init();
 			BatMonsterEntity.init();
 			CorpsesEntity.init();
@@ -106,7 +100,6 @@ public class PorcosmodModEntities {
 		event.put(GORGON.get(), GorgonEntity.createAttributes().build());
 		event.put(DEVIL_GIRL.get(), DevilGirlEntity.createAttributes().build());
 		event.put(NIGROMANTE.get(), NecromancerEntity.createAttributes().build());
-		event.put(DEVORADOR.get(), DevoradorEntity.createAttributes().build());
 		event.put(ESPECTATOR.get(), EspectatorEntity.createAttributes().build());
 		event.put(BAT_MONSTER.get(), BatMonsterEntity.createAttributes().build());
 		event.put(CORPSES.get(), CorpsesEntity.createAttributes().build());

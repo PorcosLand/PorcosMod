@@ -629,23 +629,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "Devorador",
-      "type": "livingentity",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "devorador",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/porcosmod/models/item/devorador_spawn_egg.json",
-          "src/main/resources/data/porcosmod/forge/biome_modifier/devorador_biome_modifier.json",
-          "src/main/java/net/porcosland/porcosmod/entity/DevoradorEntity.java",
-          "src/main/java/net/porcosland/porcosmod/client/renderer/DevoradorRenderer.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
       "name": "Espectator",
       "type": "animatedentity",
       "sortid": 46,
@@ -784,52 +767,178 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "espectator_quieto",
+      "files": [
+        "espectador_quieto"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "espectator_golpe",
+      "files": [
+        "espectador_golpe"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bat_quieto",
+      "files": [
+        "bat_quieto",
+        "bat_quieto2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bat_golpe",
+      "files": [
+        "bat_golpe"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bat_pasos",
+      "files": [
+        "bat_pasos"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "bat_muerte",
+      "files": [
+        "bat_muerte"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cada_quieto",
+      "files": [
+        "cadaveres_quieto"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cada_pasos",
+      "files": [
+        "cadaveres_pasos"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cada_golpe",
+      "files": [
+        "cadaveres_golpe",
+        "cadaveres_ataque"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "cada_muerte",
+      "files": [
+        "cadaveres_muerte"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gran_quieto",
+      "files": [
+        "gran_quieto"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gran_pasos",
+      "files": [
+        "gran_pasos"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gran_golpe",
+      "files": [
+        "gran_golpe"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "gran_muerte",
+      "files": [
+        "gran_muerte"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "entity.porcosmod.gorgon": "Gorgon",
       "item.porcosmod.epic_battle_music": "Epic Battle Music",
       "entity.porcosmod.titi": "Titi",
       "subtitles.titi.hit": "",
       "item.porcosmod.porconium_axe": "Hacha de porconium",
-      "entity.porcosmod.nigromante": "Nigromante",
-      "entity.porcosmod.granpapo": "Granpapo",
+      "subtitles.gran_quieto": "",
+      "subtitles.bat_muerte": "",
       "item.porcosmod.corpses_spawn_egg": "Corpses Spawn Egg",
       "entity.porcosmod.bat_monster": "Bat Monster",
+      "subtitles.bat_golpe": "",
       "item.porcosmod.porconium_sword": "Espada de porconium",
       "item.porcosmod.porcarmor_armor_helmet": "Porconium Helmet",
       "item_group.porcosmod.porcos_mod": "Porcos Mod",
       "item.porcosmod.porconium": "Porconium",
       "entity.porcosmod.espectator": "Espectator",
       "item.porcosmod.porcarmor_armor_leggings": "Porconium Leggings",
-      "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
       "item.porcosmod.porcarmor_armor_boots": "Porconium Boots",
       "item.porcosmod.bat_monster_spawn_egg": "Bat Monster Spawn Egg",
       "item.porcosmod.porcarmor_armor_chestplate": "Porconium Chestplate",
       "subtitles.epicbattlemusic": "",
       "item.porcosmod.nigromante_spawn_egg": "Nigromante Spawn Egg",
       "item.porcosmod.titi_spawn_egg": "Titi Spawn Egg",
-      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
-      "entity.porcosmod.devil_girl": "Devil Girl",
-      "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "item.porcosmod.devil_girl_spawn_egg": "Devil Girl Spawn Egg",
-      "item.porcosmod.devorador_spawn_egg": "Devorador Spawn Egg",
       "entity.porcosmod.igris": "Igris",
-      "subtitles.titi.live": "",
-      "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "item.porcosmod.porcoin_de_diamante": "Porcoin de diamante",
       "item.porcosmod.porconium_shovel": "Pala de porconium",
       "entity.porcosmod.radagon": "Radagon",
       "item.porcosmod.gorgon_spawn_egg": "Gorgon Spawn Egg",
       "item.porcosmod.granpapo_spawn_egg": "Granpapo Spawn Egg",
-      "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
+      "subtitles.gran_muerte": "",
       "item.porcosmod.porconium_hoe": "Hazada de porconium",
       "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
-      "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
-      "entity.porcosmod.devorador": "Devorador",
       "entity.porcosmod.corpses": "Corpses",
       "item.porcosmod.porconium_pickaxe": "Pico de porconium",
+      "entity.porcosmod.gorgon": "Gorgon",
+      "subtitles.cada_golpe": "",
+      "subtitles.gran_golpe": "",
+      "entity.porcosmod.nigromante": "Nigromante",
+      "entity.porcosmod.granpapo": "Granpapo",
+      "subtitles.cada_pasos": "",
+      "subtitles.cada_muerte": "",
+      "subtitles.gran_pasos": "",
+      "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
+      "subtitles.cada_quieto": "",
+      "subtitles.bat_quieto": "",
+      "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
+      "subtitles.espectator_quieto": "",
+      "entity.porcosmod.devil_girl": "Devil Girl",
+      "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
+      "subtitles.bat_pasos": "",
+      "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
+      "subtitles.titi.live": "",
+      "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
+      "subtitles.espectator_golpe": "",
+      "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
       "item.porcosmod.espectator_spawn_egg": "Espectator Spawn Egg"
     }
   },

@@ -38,5 +38,125 @@
         "stream": true
       }
     ]
+  },
+  "espectator_quieto": {
+    "sounds": [
+      {
+        "name": "porcosmod:espectador_quieto",
+        "stream": false
+      }
+    ]
+  },
+  "espectator_golpe": {
+    "sounds": [
+      {
+        "name": "porcosmod:espectador_golpe",
+        "stream": false
+      }
+    ]
+  },
+  "bat_quieto": {
+    "sounds": [
+      {
+        "name": "porcosmod:bat_quieto",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:bat_quieto2",
+        "stream": false
+      }
+    ]
+  },
+  "bat_golpe": {
+    "sounds": [
+      {
+        "name": "porcosmod:bat_golpe",
+        "stream": false
+      }
+    ]
+  },
+  "bat_pasos": {
+    "sounds": [
+      {
+        "name": "porcosmod:bat_pasos",
+        "stream": false
+      }
+    ]
+  },
+  "bat_muerte": {
+    "sounds": [
+      {
+        "name": "porcosmod:bat_muerte",
+        "stream": false
+      }
+    ]
+  },
+  "cada_quieto": {
+    "sounds": [
+      {
+        "name": "porcosmod:cadaveres_quieto",
+        "stream": false
+      }
+    ]
+  },
+  "cada_pasos": {
+    "sounds": [
+      {
+        "name": "porcosmod:cadaveres_pasos",
+        "stream": false
+      }
+    ]
+  },
+  "cada_golpe": {
+    "sounds": [
+      {
+        "name": "porcosmod:cadaveres_golpe",
+        "stream": false
+      },
+      {
+        "name": "porcosmod:cadaveres_ataque",
+        "stream": false
+      }
+    ]
+  },
+  "cada_muerte": {
+    "sounds": [
+      {
+        "name": "porcosmod:cadaveres_muerte",
+        "stream": false
+      }
+    ]
+  },
+  "gran_quieto": {
+    "sounds": [
+      {
+        "name": "porcosmod:gran_quieto",
+        "stream": false
+      }
+    ]
+  },
+  "gran_pasos": {
+    "sounds": [
+      {
+        "name": "porcosmod:gran_pasos",
+        "stream": false
+      }
+    ]
+  },
+  "gran_golpe": {
+    "sounds": [
+      {
+        "name": "porcosmod:gran_golpe",
+        "stream": false
+      }
+    ]
+  },
+  "gran_muerte": {
+    "sounds": [
+      {
+        "name": "porcosmod:gran_muerte",
+        "stream": false
+      }
+    ]
   }
 }

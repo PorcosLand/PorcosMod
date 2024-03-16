@@ -51,8 +51,7 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> PORCONIUM_AXE = REGISTRY.register("porconium_axe", () -> new PorconiumAxeItem());
 	public static final RegistryObject<Item> PORCONIUM_HOE = REGISTRY.register("porconium_hoe", () -> new PorconiumHoeItem());
 	public static final RegistryObject<Item> NIGROMANTE_SPAWN_EGG = REGISTRY.register("nigromante_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.NIGROMANTE, -4684485, -2050572, new Item.Properties()));
-	public static final RegistryObject<Item> DEVORADOR_SPAWN_EGG = REGISTRY.register("devorador_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.DEVORADOR, -1, -1, new Item.Properties()));
-	public static final RegistryObject<Item> ESPECTATOR_SPAWN_EGG = REGISTRY.register("espectator_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.ESPECTATOR, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> ESPECTATOR_SPAWN_EGG = REGISTRY.register("espectator_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.ESPECTATOR, -1, -26368, new Item.Properties()));
 	public static final RegistryObject<Item> BAT_MONSTER_SPAWN_EGG = REGISTRY.register("bat_monster_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.BAT_MONSTER, -8229881, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CORPSES_SPAWN_EGG = REGISTRY.register("corpses_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.CORPSES, -10066330, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GRANPAPO_SPAWN_EGG = REGISTRY.register("granpapo_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.GRANPAPO, -16711783, -16724890, new Item.Properties()));

@@ -89,16 +89,16 @@
       "value": ""
     },
     "livingSound": {
-      "value": ""
+      "value": "CUSTOM:cada_quieto"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:cada_golpe"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:cada_muerte"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:cada_pasos"
     },
     "hasAI": true,
     "aiBase": "(none)",
