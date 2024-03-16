@@ -699,6 +699,24 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "FIreDragon",
+      "type": "animatedentity",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_ire_dragon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/client/renderer/FIreDragonRenderer.java",
+          "src/main/resources/assets/porcosmod/models/item/f_ire_dragon_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/entity/model/FIreDragonModel.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/f_ire_dragon_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/FIreDragonEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -927,6 +945,8 @@
       "subtitles.cada_muerte": "",
       "subtitles.gran_pasos": "",
       "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
+      "item.porcosmod.f_ire_dragon_spawn_egg": "Fire dragon Spawn Egg",
+      "entity.porcosmod.f_ire_dragon": "Fire dragon",
       "subtitles.cada_quieto": "",
       "subtitles.bat_quieto": "",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",

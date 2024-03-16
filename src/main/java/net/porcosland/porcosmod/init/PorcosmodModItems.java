@@ -55,6 +55,7 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> BAT_MONSTER_SPAWN_EGG = REGISTRY.register("bat_monster_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.BAT_MONSTER, -8229881, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> CORPSES_SPAWN_EGG = REGISTRY.register("corpses_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.CORPSES, -10066330, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GRANPAPO_SPAWN_EGG = REGISTRY.register("granpapo_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.GRANPAPO, -16711783, -16724890, new Item.Properties()));
+	public static final RegistryObject<Item> F_IRE_DRAGON_SPAWN_EGG = REGISTRY.register("f_ire_dragon_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.F_IRE_DRAGON, -26317, -3407872, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

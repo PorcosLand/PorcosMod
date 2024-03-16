@@ -10,6 +10,7 @@ import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
+import net.porcosland.porcosmod.entity.FIreDragonEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
 import net.porcosland.porcosmod.entity.CorpsesEntity;
@@ -71,6 +72,10 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<GranpapoEntity>of(GranpapoEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GranpapoEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<FIreDragonEntity>> F_IRE_DRAGON = register("f_ire_dragon",
+			EntityType.Builder.<FIreDragonEntity>of(FIreDragonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FIreDragonEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -89,6 +94,7 @@ public class PorcosmodModEntities {
 			BatMonsterEntity.init();
 			CorpsesEntity.init();
 			GranpapoEntity.init();
+			FIreDragonEntity.init();
 		});
 	}
 
@@ -104,5 +110,6 @@ public class PorcosmodModEntities {
 		event.put(BAT_MONSTER.get(), BatMonsterEntity.createAttributes().build());
 		event.put(CORPSES.get(), CorpsesEntity.createAttributes().build());
 		event.put(GRANPAPO.get(), GranpapoEntity.createAttributes().build());
+		event.put(F_IRE_DRAGON.get(), FIreDragonEntity.createAttributes().build());
 	}
 }

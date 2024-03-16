@@ -10,6 +10,7 @@ import net.porcosland.porcosmod.client.renderer.NecromancerRenderer;
 import net.porcosland.porcosmod.client.renderer.IgrisRenderer;
 import net.porcosland.porcosmod.client.renderer.GranpapoRenderer;
 import net.porcosland.porcosmod.client.renderer.GorgonRenderer;
+import net.porcosland.porcosmod.client.renderer.FIreDragonRenderer;
 import net.porcosland.porcosmod.client.renderer.EspectatorRenderer;
 import net.porcosland.porcosmod.client.renderer.DevilGirlRenderer;
 import net.porcosland.porcosmod.client.renderer.CorpsesRenderer;
@@ -34,5 +35,6 @@ public class PorcosmodModEntityRenderers {
 		event.registerEntityRenderer(PorcosmodModEntities.BAT_MONSTER.get(), BatMonsterRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.CORPSES.get(), CorpsesRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.GRANPAPO.get(), GranpapoRenderer::new);
+		event.registerEntityRenderer(PorcosmodModEntities.F_IRE_DRAGON.get(), FIreDragonRenderer::new);
 	}
 }
