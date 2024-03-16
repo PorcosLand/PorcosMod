@@ -74,6 +74,7 @@ public class FIreDragonEntity extends PathfinderMob implements GeoEntity {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		setPersistenceRequired();
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
 
@@ -169,6 +170,11 @@ public class FIreDragonEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
+	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
 	}
 
 	@Override

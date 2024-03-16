@@ -5,6 +5,7 @@
 package net.porcosland.porcosmod.init;
 
 import net.porcosland.porcosmod.client.renderer.TitiRenderer;
+import net.porcosland.porcosmod.client.renderer.SculptorRenderer;
 import net.porcosland.porcosmod.client.renderer.RadagonRenderer;
 import net.porcosland.porcosmod.client.renderer.NecromancerRenderer;
 import net.porcosland.porcosmod.client.renderer.IgrisRenderer;
@@ -36,5 +37,6 @@ public class PorcosmodModEntityRenderers {
 		event.registerEntityRenderer(PorcosmodModEntities.CORPSES.get(), CorpsesRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.GRANPAPO.get(), GranpapoRenderer::new);
 		event.registerEntityRenderer(PorcosmodModEntities.F_IRE_DRAGON.get(), FIreDragonRenderer::new);
+		event.registerEntityRenderer(PorcosmodModEntities.SCULPTOR.get(), SculptorRenderer::new);
 	}
 }

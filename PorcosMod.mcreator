@@ -717,6 +717,24 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Sculptor",
+      "type": "animatedentity",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculptor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/forge/biome_modifier/sculptor_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/model/SculptorModel.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/SculptorRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/SculptorEntity.java",
+          "src/main/resources/assets/porcosmod/models/item/sculptor_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -935,6 +953,7 @@
       "item.porcosmod.porconium_hoe": "Hazada de porconium",
       "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
       "entity.porcosmod.corpses": "Corpses",
+      "item.porcosmod.sculptor_spawn_egg": "Sculptor Spawn Egg",
       "item.porcosmod.porconium_pickaxe": "Pico de porconium",
       "entity.porcosmod.gorgon": "Gorgon",
       "subtitles.cada_golpe": "",
@@ -958,6 +977,7 @@
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "subtitles.espectator_golpe": "",
+      "entity.porcosmod.sculptor": "Sculptor",
       "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
       "item.porcosmod.espectator_spawn_egg": "Espectator Spawn Egg"
     }

@@ -1,5 +1,6 @@
 package net.porcosland.porcosmod.init;
 
+import net.porcosland.porcosmod.entity.SculptorEntity;
 import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.FIreDragonEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
@@ -44,6 +45,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof FIreDragonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof SculptorEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

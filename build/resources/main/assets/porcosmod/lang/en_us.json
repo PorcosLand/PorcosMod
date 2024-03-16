@@ -31,6 +31,7 @@
   "item.porcosmod.porconium_hoe": "Hazada de porconium",
   "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
   "entity.porcosmod.corpses": "Corpses",
+  "item.porcosmod.sculptor_spawn_egg": "Sculptor Spawn Egg",
   "item.porcosmod.porconium_pickaxe": "Pico de porconium",
   "entity.porcosmod.gorgon": "Gorgon",
   "subtitles.cada_golpe": "",
@@ -54,6 +55,7 @@
   "subtitles.titi.live": "",
   "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
   "subtitles.espectator_golpe": "",
+  "entity.porcosmod.sculptor": "Sculptor",
   "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
   "item.porcosmod.espectator_spawn_egg": "Espectator Spawn Egg"
 }

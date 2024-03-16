@@ -58,6 +58,7 @@ public class PorcosmodModTabs {
 			tabData.accept(PorcosmodModItems.CORPSES_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.GRANPAPO_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.F_IRE_DRAGON_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.SCULPTOR_SPAWN_EGG.get());
 		}
 	}
 }
