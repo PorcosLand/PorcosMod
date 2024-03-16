@@ -9,6 +9,7 @@ import net.porcosland.porcosmod.entity.RadagonEntity;
 import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GorgonEntity;
+import net.porcosland.porcosmod.entity.DevoradorEntity;
 import net.porcosland.porcosmod.entity.DevilGirlEntity;
 import net.porcosland.porcosmod.entity.CadaveresEntity;
 import net.porcosland.porcosmod.entity.BatmonsterEntity;
@@ -61,6 +62,10 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<CadaveresEntity>of(CadaveresEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CadaveresEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<DevoradorEntity>> DEVORADOR = register("devorador",
+			EntityType.Builder.<DevoradorEntity>of(DevoradorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DevoradorEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -77,6 +82,7 @@ public class PorcosmodModEntities {
 			NecromancerEntity.init();
 			BatmonsterEntity.init();
 			CadaveresEntity.init();
+			DevoradorEntity.init();
 		});
 	}
 
@@ -90,5 +96,6 @@ public class PorcosmodModEntities {
 		event.put(NIGROMANTE.get(), NecromancerEntity.createAttributes().build());
 		event.put(BATMONSTER.get(), BatmonsterEntity.createAttributes().build());
 		event.put(CADAVERES.get(), CadaveresEntity.createAttributes().build());
+		event.put(DEVORADOR.get(), DevoradorEntity.createAttributes().build());
 	}
 }
