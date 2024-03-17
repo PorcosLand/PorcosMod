@@ -735,6 +735,73 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Ogre",
+      "type": "animatedentity",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/client/renderer/OgreRenderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/model/OgreModel.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/ogre_biome_modifier.json",
+          "src/main/resources/assets/porcosmod/models/item/ogre_spawn_egg.json",
+          "src/main/java/net/porcosland/porcosmod/entity/OgreEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "OgreSkin",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ogre_skin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/porcosmod/models/item/ogre_skin.json",
+          "src/main/java/net/porcosland/porcosmod/item/OgreSkinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Troll1",
+      "type": "animatedentity",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/porcosland/porcosmod/entity/Troll1Entity.java",
+          "src/main/java/net/porcosland/porcosmod/entity/model/Troll1Model.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/Troll1Renderer.java",
+          "src/main/resources/data/porcosmod/forge/biome_modifier/troll_1_biome_modifier.json",
+          "src/main/resources/assets/porcosmod/models/item/troll_1_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Troll2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "troll_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/porcosmod/forge/biome_modifier/troll_2_biome_modifier.json",
+          "src/main/java/net/porcosland/porcosmod/entity/Troll2Entity.java",
+          "src/main/java/net/porcosland/porcosmod/client/renderer/Troll2Renderer.java",
+          "src/main/java/net/porcosland/porcosmod/entity/model/Troll2Model.java",
+          "src/main/resources/assets/porcosmod/models/item/troll_2_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -952,12 +1019,15 @@
       "subtitles.gran_muerte": "",
       "item.porcosmod.porconium_hoe": "Hazada de porconium",
       "block.porcosmod.bloque_de_porconium": "Bloque de porconium",
+      "item.porcosmod.ogre_skin": "Piel de ogro",
       "entity.porcosmod.corpses": "Corpses",
       "item.porcosmod.sculptor_spawn_egg": "Sculptor Spawn Egg",
       "item.porcosmod.porconium_pickaxe": "Pico de porconium",
       "entity.porcosmod.gorgon": "Gorgon",
       "subtitles.cada_golpe": "",
+      "entity.porcosmod.troll_2": "Troll",
       "subtitles.gran_golpe": "",
+      "entity.porcosmod.troll_1": "Troll",
       "entity.porcosmod.nigromante": "Nigromante",
       "entity.porcosmod.granpapo": "Granpapo",
       "subtitles.cada_pasos": "",
@@ -966,6 +1036,7 @@
       "item.porcosmod.epic_battle_music.desc": "Musica epica de batalla",
       "item.porcosmod.f_ire_dragon_spawn_egg": "Fire dragon Spawn Egg",
       "entity.porcosmod.f_ire_dragon": "Fire dragon",
+      "item.porcosmod.troll_1_spawn_egg": "Troll Spawn Egg",
       "subtitles.cada_quieto": "",
       "subtitles.bat_quieto": "",
       "item.porcosmod.igris_spawn_egg": "Igris Spawn Egg",
@@ -973,12 +1044,15 @@
       "entity.porcosmod.devil_girl": "Devil Girl",
       "item.porcosmod.radagon_spawn_egg": "Radagon Spawn Egg",
       "subtitles.bat_pasos": "",
+      "entity.porcosmod.ogre": "Ogre",
       "item.porcosmod.porcoin_de_plata": "Porcoin de plata",
       "subtitles.titi.live": "",
       "item.porcosmod.porcoin_de_oro": "Porcoin de oro",
       "subtitles.espectator_golpe": "",
       "entity.porcosmod.sculptor": "Sculptor",
       "item.porcosmod.porcoin_de_bronce": "Porcoin de bronce",
+      "item.porcosmod.troll_2_spawn_egg": "Troll Spawn Egg",
+      "item.porcosmod.ogre_spawn_egg": "Ogre Spawn Egg",
       "item.porcosmod.espectator_spawn_egg": "Espectator Spawn Egg"
     }
   },

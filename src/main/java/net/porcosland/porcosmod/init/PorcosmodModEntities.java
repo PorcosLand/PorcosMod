@@ -4,9 +4,12 @@
  */
 package net.porcosland.porcosmod.init;
 
+import net.porcosland.porcosmod.entity.Troll2Entity;
+import net.porcosland.porcosmod.entity.Troll1Entity;
 import net.porcosland.porcosmod.entity.TitiEntity;
 import net.porcosland.porcosmod.entity.SculptorEntity;
 import net.porcosland.porcosmod.entity.RadagonEntity;
+import net.porcosland.porcosmod.entity.OgreEntity;
 import net.porcosland.porcosmod.entity.NecromancerEntity;
 import net.porcosland.porcosmod.entity.IgrisEntity;
 import net.porcosland.porcosmod.entity.GranpapoEntity;
@@ -81,6 +84,18 @@ public class PorcosmodModEntities {
 			EntityType.Builder.<SculptorEntity>of(SculptorEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SculptorEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<OgreEntity>> OGRE = register("ogre",
+			EntityType.Builder.<OgreEntity>of(OgreEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OgreEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<Troll1Entity>> TROLL_1 = register("troll_1",
+			EntityType.Builder.<Troll1Entity>of(Troll1Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Troll1Entity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<Troll2Entity>> TROLL_2 = register("troll_2",
+			EntityType.Builder.<Troll2Entity>of(Troll2Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(Troll2Entity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -101,6 +116,9 @@ public class PorcosmodModEntities {
 			GranpapoEntity.init();
 			FIreDragonEntity.init();
 			SculptorEntity.init();
+			OgreEntity.init();
+			Troll1Entity.init();
+			Troll2Entity.init();
 		});
 	}
 
@@ -118,5 +136,8 @@ public class PorcosmodModEntities {
 		event.put(GRANPAPO.get(), GranpapoEntity.createAttributes().build());
 		event.put(F_IRE_DRAGON.get(), FIreDragonEntity.createAttributes().build());
 		event.put(SCULPTOR.get(), SculptorEntity.createAttributes().build());
+		event.put(OGRE.get(), OgreEntity.createAttributes().build());
+		event.put(TROLL_1.get(), Troll1Entity.createAttributes().build());
+		event.put(TROLL_2.get(), Troll2Entity.createAttributes().build());
 	}
 }

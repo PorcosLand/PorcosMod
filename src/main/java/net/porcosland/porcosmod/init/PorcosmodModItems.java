@@ -15,6 +15,7 @@ import net.porcosland.porcosmod.item.PorcoinDeOroItem;
 import net.porcosland.porcosmod.item.PorcoinDeDiamanteItem;
 import net.porcosland.porcosmod.item.PorcoinDeBronceItem;
 import net.porcosland.porcosmod.item.PorcarmorArmorItem;
+import net.porcosland.porcosmod.item.OgreSkinItem;
 import net.porcosland.porcosmod.item.EpicBattleMusicItem;
 import net.porcosland.porcosmod.PorcosmodMod;
 
@@ -57,6 +58,10 @@ public class PorcosmodModItems {
 	public static final RegistryObject<Item> GRANPAPO_SPAWN_EGG = REGISTRY.register("granpapo_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.GRANPAPO, -16711783, -16724890, new Item.Properties()));
 	public static final RegistryObject<Item> F_IRE_DRAGON_SPAWN_EGG = REGISTRY.register("f_ire_dragon_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.F_IRE_DRAGON, -26317, -3407872, new Item.Properties()));
 	public static final RegistryObject<Item> SCULPTOR_SPAWN_EGG = REGISTRY.register("sculptor_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.SCULPTOR, -3368704, -3355648, new Item.Properties()));
+	public static final RegistryObject<Item> OGRE_SPAWN_EGG = REGISTRY.register("ogre_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.OGRE, -13159, -16751053, new Item.Properties()));
+	public static final RegistryObject<Item> OGRE_SKIN = REGISTRY.register("ogre_skin", () -> new OgreSkinItem());
+	public static final RegistryObject<Item> TROLL_1_SPAWN_EGG = REGISTRY.register("troll_1_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.TROLL_1, -6710887, -16737895, new Item.Properties()));
+	public static final RegistryObject<Item> TROLL_2_SPAWN_EGG = REGISTRY.register("troll_2_spawn_egg", () -> new ForgeSpawnEggItem(PorcosmodModEntities.TROLL_2, -6710887, -16737895, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

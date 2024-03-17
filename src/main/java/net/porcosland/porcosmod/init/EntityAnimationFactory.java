@@ -1,6 +1,9 @@
 package net.porcosland.porcosmod.init;
 
+import net.porcosland.porcosmod.entity.Troll2Entity;
+import net.porcosland.porcosmod.entity.Troll1Entity;
 import net.porcosland.porcosmod.entity.SculptorEntity;
+import net.porcosland.porcosmod.entity.OgreEntity;
 import net.porcosland.porcosmod.entity.GranpapoEntity;
 import net.porcosland.porcosmod.entity.FIreDragonEntity;
 import net.porcosland.porcosmod.entity.EspectatorEntity;
@@ -52,6 +55,27 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof SculptorEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof OgreEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof Troll1Entity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof Troll2Entity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

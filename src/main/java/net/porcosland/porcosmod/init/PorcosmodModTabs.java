@@ -39,6 +39,7 @@ public class PorcosmodModTabs {
 				tabData.accept(PorcosmodModItems.PORCONIUM_SHOVEL.get());
 				tabData.accept(PorcosmodModItems.PORCONIUM_AXE.get());
 				tabData.accept(PorcosmodModItems.PORCONIUM_HOE.get());
+				tabData.accept(PorcosmodModItems.OGRE_SKIN.get());
 			})
 
 					.build());
@@ -59,6 +60,9 @@ public class PorcosmodModTabs {
 			tabData.accept(PorcosmodModItems.GRANPAPO_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.F_IRE_DRAGON_SPAWN_EGG.get());
 			tabData.accept(PorcosmodModItems.SCULPTOR_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.OGRE_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.TROLL_1_SPAWN_EGG.get());
+			tabData.accept(PorcosmodModItems.TROLL_2_SPAWN_EGG.get());
 		}
 	}
 }
